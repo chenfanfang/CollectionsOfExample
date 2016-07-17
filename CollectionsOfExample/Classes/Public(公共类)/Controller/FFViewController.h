@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FFViewController.h
 //  CollectionsOfExample
 //
 //  Created by mac on 16/7/17.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+/**
+ *  Controller的基类
+ */
+@interface FFViewController : UIViewController
 
 @end
-
