@@ -15,6 +15,16 @@
 		040A759A1D3BA26100F728A9 /* FFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75991D3BA26100F728A9 /* FFNavigationController.m */; };
 		040A759D1D3BA27400F728A9 /* FFMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A759C1D3BA27400F728A9 /* FFMainNavigationController.m */; };
 		040A75A01D3BA31400F728A9 /* FFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A759F1D3BA31400F728A9 /* FFTableViewController.m */; };
+		040A75A31D3BA4C300F728A9 /* FFExampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75A21D3BA4C300F728A9 /* FFExampleModel.m */; };
+		040A75B31D3BA94100F728A9 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75B21D3BA94100F728A9 /* UIView+Extension.m */; };
+		040A75B61D3BA9CA00F728A9 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75B51D3BA9CA00F728A9 /* UIViewController+Extension.m */; };
+		040A75BA1D3BAA3400F728A9 /* FFExampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75B81D3BAA3400F728A9 /* FFExampleCell.m */; };
+		040A75BB1D3BAA3400F728A9 /* FFExampleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040A75B91D3BAA3400F728A9 /* FFExampleCell.xib */; };
+		040A75BF1D3BD10400F728A9 /* FFDifferentWidthTagVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75BD1D3BD10400F728A9 /* FFDifferentWidthTagVC.m */; };
+		040A75C31D3BD35300F728A9 /* FFDifferentWidthTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75C21D3BD35300F728A9 /* FFDifferentWidthTagModel.m */; };
+		040A75C61D3BD56700F728A9 /* FFTableSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75C51D3BD56700F728A9 /* FFTableSectionHeaderView.m */; };
+		040A75C91D3BDD2600F728A9 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75C81D3BDD2600F728A9 /* NSString+Extension.m */; };
+		040A75CC1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75CB1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m */; };
 		04CE412C1D3B8BEB009ED3F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412A1D3B8BEB009ED3F3 /* Main.storyboard */; };
 		04CE412E1D3B8BEB009ED3F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */; };
 		04CE41311D3B8BEB009ED3F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412F1D3B8BEB009ED3F3 /* LaunchScreen.storyboard */; };
@@ -55,9 +65,28 @@
 		040A759C1D3BA27400F728A9 /* FFMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMainNavigationController.m; sourceTree = "<group>"; };
 		040A759E1D3BA31400F728A9 /* FFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTableViewController.h; sourceTree = "<group>"; };
 		040A759F1D3BA31400F728A9 /* FFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTableViewController.m; sourceTree = "<group>"; };
+		040A75A11D3BA4C300F728A9 /* FFExampleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFExampleModel.h; sourceTree = "<group>"; };
+		040A75A21D3BA4C300F728A9 /* FFExampleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFExampleModel.m; sourceTree = "<group>"; };
+		040A75B11D3BA94100F728A9 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		040A75B21D3BA94100F728A9 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		040A75B41D3BA9CA00F728A9 /* UIViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		040A75B51D3BA9CA00F728A9 /* UIViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		040A75B71D3BAA3400F728A9 /* FFExampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFExampleCell.h; sourceTree = "<group>"; };
+		040A75B81D3BAA3400F728A9 /* FFExampleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFExampleCell.m; sourceTree = "<group>"; };
+		040A75B91D3BAA3400F728A9 /* FFExampleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFExampleCell.xib; sourceTree = "<group>"; };
+		040A75BC1D3BD10400F728A9 /* FFDifferentWidthTagVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDifferentWidthTagVC.h; sourceTree = "<group>"; };
+		040A75BD1D3BD10400F728A9 /* FFDifferentWidthTagVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDifferentWidthTagVC.m; sourceTree = "<group>"; };
+		040A75C11D3BD35300F728A9 /* FFDifferentWidthTagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDifferentWidthTagModel.h; sourceTree = "<group>"; };
+		040A75C21D3BD35300F728A9 /* FFDifferentWidthTagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDifferentWidthTagModel.m; sourceTree = "<group>"; };
+		040A75C41D3BD56700F728A9 /* FFTableSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTableSectionHeaderView.h; sourceTree = "<group>"; };
+		040A75C51D3BD56700F728A9 /* FFTableSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTableSectionHeaderView.m; sourceTree = "<group>"; };
+		040A75C71D3BDD2600F728A9 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		040A75C81D3BDD2600F728A9 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		040A75CA1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDifferentWidthTagCell.h; sourceTree = "<group>"; };
+		040A75CB1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDifferentWidthTagCell.m; sourceTree = "<group>"; };
 		04CE411E1D3B8BEB009ED3F3 /* CollectionsOfExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionsOfExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE412B1D3B8BEB009ED3F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CE41301D3B8BEB009ED3F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CE41371D3B8BEB009ED3F3 /* CollectionsOfExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionsOfExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE413B1D3B8BEB009ED3F3 /* CollectionsOfExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionsOfExampleTests.m; sourceTree = "<group>"; };
@@ -123,9 +152,6 @@
 		040A75691D3B959800F728A9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				04CE412F1D3B8BEB009ED3F3 /* LaunchScreen.storyboard */,
-				04CE412A1D3B8BEB009ED3F3 /* Main.storyboard */,
-				04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */,
 				040A756A1D3B959800F728A9 /* Plist文件 */,
 			);
 			path = Resources;
@@ -142,48 +168,9 @@
 		040A757B1D3B970800F728A9 /* Example(例子) */ = {
 			isa = PBXGroup;
 			children = (
-				040A757C1D3B970800F728A9 /* Cell */,
-				040A757D1D3B970800F728A9 /* Controller */,
-				040A757E1D3B970800F728A9 /* Model */,
-				040A757F1D3B970800F728A9 /* Tools */,
-				040A75801D3B970800F728A9 /* View */,
+				040A75A41D3BA7A000F728A9 /* 001_不同宽度的标签 */,
 			);
 			path = "Example(例子)";
-			sourceTree = "<group>";
-		};
-		040A757C1D3B970800F728A9 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		040A757D1D3B970800F728A9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		040A757E1D3B970800F728A9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		040A757F1D3B970800F728A9 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		040A75801D3B970800F728A9 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		040A75811D3B970800F728A9 /* Main(主界面) */ = {
@@ -201,6 +188,9 @@
 		040A75821D3B970800F728A9 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				040A75B71D3BAA3400F728A9 /* FFExampleCell.h */,
+				040A75B81D3BAA3400F728A9 /* FFExampleCell.m */,
+				040A75B91D3BAA3400F728A9 /* FFExampleCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -208,10 +198,10 @@
 		040A75831D3B970800F728A9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				040A759B1D3BA27400F728A9 /* FFMainNavigationController.h */,
-				040A759C1D3BA27400F728A9 /* FFMainNavigationController.m */,
 				040A75901D3B97AE00F728A9 /* FFMainViewController.h */,
 				040A75911D3B97AE00F728A9 /* FFMainViewController.m */,
+				040A759B1D3BA27400F728A9 /* FFMainNavigationController.h */,
+				040A759C1D3BA27400F728A9 /* FFMainNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -219,6 +209,8 @@
 		040A75841D3B970800F728A9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				040A75A11D3BA4C300F728A9 /* FFExampleModel.h */,
+				040A75A21D3BA4C300F728A9 /* FFExampleModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -240,6 +232,7 @@
 		040A75871D3B970800F728A9 /* Public(公共类) */ = {
 			isa = PBXGroup;
 			children = (
+				040A75AD1D3BA8F900F728A9 /* Category */,
 				040A75891D3B970800F728A9 /* Controller */,
 				040A75931D3B981200F728A9 /* Other */,
 				040A75881D3B970800F728A9 /* Cell */,
@@ -287,6 +280,8 @@
 		040A758C1D3B970800F728A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				040A75C41D3BD56700F728A9 /* FFTableSectionHeaderView.h */,
+				040A75C51D3BD56700F728A9 /* FFTableSectionHeaderView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,6 +292,72 @@
 				040A75941D3B986B00F728A9 /* PrefixHeader.pch */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		040A75A41D3BA7A000F728A9 /* 001_不同宽度的标签 */ = {
+			isa = PBXGroup;
+			children = (
+				040A75A61D3BA7A000F728A9 /* Controller */,
+				040A75A51D3BA7A000F728A9 /* Cell */,
+				040A75A71D3BA7A000F728A9 /* Model */,
+				040A75A81D3BA7A000F728A9 /* Tools */,
+				040A75A91D3BA7A000F728A9 /* View */,
+			);
+			path = "001_不同宽度的标签";
+			sourceTree = "<group>";
+		};
+		040A75A51D3BA7A000F728A9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				040A75CA1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.h */,
+				040A75CB1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		040A75A61D3BA7A000F728A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040A75BC1D3BD10400F728A9 /* FFDifferentWidthTagVC.h */,
+				040A75BD1D3BD10400F728A9 /* FFDifferentWidthTagVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040A75A71D3BA7A000F728A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				040A75C11D3BD35300F728A9 /* FFDifferentWidthTagModel.h */,
+				040A75C21D3BD35300F728A9 /* FFDifferentWidthTagModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040A75A81D3BA7A000F728A9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		040A75A91D3BA7A000F728A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040A75AD1D3BA8F900F728A9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				040A75B11D3BA94100F728A9 /* UIView+Extension.h */,
+				040A75B21D3BA94100F728A9 /* UIView+Extension.m */,
+				040A75B41D3BA9CA00F728A9 /* UIViewController+Extension.h */,
+				040A75B51D3BA9CA00F728A9 /* UIViewController+Extension.m */,
+				040A75C71D3BDD2600F728A9 /* NSString+Extension.h */,
+				040A75C81D3BDD2600F728A9 /* NSString+Extension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		04CE41151D3B8BEB009ED3F3 = {
@@ -324,7 +385,6 @@
 			children = (
 				040A75631D3B959800F728A9 /* Classes */,
 				040A75681D3B959800F728A9 /* Lib */,
-				040A75691D3B959800F728A9 /* Resources */,
 				04CE41211D3B8BEB009ED3F3 /* Supporting Files */,
 			);
 			path = CollectionsOfExample;
@@ -333,6 +393,10 @@
 		04CE41211D3B8BEB009ED3F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				040A75691D3B959800F728A9 /* Resources */,
+				04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */,
+				04CE412F1D3B8BEB009ED3F3 /* LaunchScreen.storyboard */,
+				04CE412A1D3B8BEB009ED3F3 /* Main.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -461,6 +525,7 @@
 			files = (
 				040A756E1D3B959800F728A9 /* Info.plist in Resources */,
 				04CE41311D3B8BEB009ED3F3 /* LaunchScreen.storyboard in Resources */,
+				040A75BB1D3BAA3400F728A9 /* FFExampleCell.xib in Resources */,
 				04CE412E1D3B8BEB009ED3F3 /* Assets.xcassets in Resources */,
 				04CE412C1D3B8BEB009ED3F3 /* Main.storyboard in Resources */,
 			);
@@ -487,13 +552,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040A75B31D3BA94100F728A9 /* UIView+Extension.m in Sources */,
 				040A759D1D3BA27400F728A9 /* FFMainNavigationController.m in Sources */,
+				040A75BF1D3BD10400F728A9 /* FFDifferentWidthTagVC.m in Sources */,
+				040A75CC1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m in Sources */,
+				040A75C31D3BD35300F728A9 /* FFDifferentWidthTagModel.m in Sources */,
+				040A75C61D3BD56700F728A9 /* FFTableSectionHeaderView.m in Sources */,
 				040A758F1D3B976E00F728A9 /* FFViewController.m in Sources */,
+				040A75B61D3BA9CA00F728A9 /* UIViewController+Extension.m in Sources */,
 				040A75A01D3BA31400F728A9 /* FFTableViewController.m in Sources */,
 				040A75921D3B97AE00F728A9 /* FFMainViewController.m in Sources */,
+				040A75A31D3BA4C300F728A9 /* FFExampleModel.m in Sources */,
+				040A75C91D3BDD2600F728A9 /* NSString+Extension.m in Sources */,
 				040A756C1D3B959800F728A9 /* AppDelegate.m in Sources */,
 				040A759A1D3BA26100F728A9 /* FFNavigationController.m in Sources */,
 				040A756D1D3B959800F728A9 /* main.m in Sources */,
+				040A75BA1D3BAA3400F728A9 /* FFExampleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +609,6 @@
 				04CE412B1D3B8BEB009ED3F3 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		04CE412F1D3B8BEB009ED3F3 /* LaunchScreen.storyboard */ = {
@@ -544,7 +617,6 @@
 				04CE41301D3B8BEB009ED3F3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

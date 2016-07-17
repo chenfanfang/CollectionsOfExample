@@ -9,6 +9,14 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+//category
+#import "UIView+Extension.h"
+#import "UIViewController+Extension.h"
+#import "NSString+Extension.h"
+
+//view
+#import "FFTableSectionHeaderView.h"
+
 
 /***********************************屏幕尺寸***********************************/
 
@@ -34,6 +42,23 @@
 #define FFGrayColor(value) FFColor((value), (value), (value))
 /** 随即色 */
 #define FFRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1];
+
+
+/*******************************tableView相关*****************************/
+
+/** 注册tableViewCell Xib */
+#define FFRegisterCell(tableView, cellClass, cellID) [tableView registerNib:[UINib nibWithNibName:NSStringFromClass([cellClass class]) bundle:nil] forCellReuseIdentifier:cellID];
+
+/** 注册tableViewCell 类名 */
+#define FFRegisterCellClass(tableView, cellClass, cellID) [tableView registerClass:[cellClass class] forCellReuseIdentifier:cellID];
+
+/** 定义一个cellID */
+#define FFDefineCellID(cellIDName, cellStr) static NSString *const cellIDName = cellStr
+
+/*********************************其他**********************************/
+
+/** 字体大小 */
+#define FFFont(fontSize) [UIFont systemFontOfSize:fontSize]
 
 
 #endif /* PrefixHeader_pch */

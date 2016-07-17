@@ -20,6 +20,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self setup];
+}
+
+- (void)setup {
+    
+
+    
+//    self.navigationBar.tintColor = [UIColor whiteColor];
+//    self.navigationBar.translucent = NO;
+//    //设置导航栏文字
+//    [self.navigationBar setTitleTextAttributes:@{
+//                                                 NSFontAttributeName : [UIFont boldSystemFontOfSize:18],
+//                                                 NSForegroundColorAttributeName : [UIColor whiteColor]
+//                                                 
+//                                                 }];
 }
 
 
