@@ -25,6 +25,8 @@
 		040A75C61D3BD56700F728A9 /* FFTableSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75C51D3BD56700F728A9 /* FFTableSectionHeaderView.m */; };
 		040A75C91D3BDD2600F728A9 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75C81D3BDD2600F728A9 /* NSString+Extension.m */; };
 		040A75CC1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75CB1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m */; };
+		0486FF681D4CC55B00273597 /* FFVoicePlayTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF671D4CC55B00273597 /* FFVoicePlayTextController.m */; };
+		0486FF6A1D4CC9D100273597 /* FFVoicePlayTextController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0486FF691D4CC9D100273597 /* FFVoicePlayTextController.xib */; };
 		04CE412C1D3B8BEB009ED3F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412A1D3B8BEB009ED3F3 /* Main.storyboard */; };
 		04CE412E1D3B8BEB009ED3F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */; };
 		04CE41311D3B8BEB009ED3F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412F1D3B8BEB009ED3F3 /* LaunchScreen.storyboard */; };
@@ -84,6 +86,9 @@
 		040A75C81D3BDD2600F728A9 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		040A75CA1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDifferentWidthTagCell.h; sourceTree = "<group>"; };
 		040A75CB1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDifferentWidthTagCell.m; sourceTree = "<group>"; };
+		0486FF661D4CC55B00273597 /* FFVoicePlayTextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFVoicePlayTextController.h; sourceTree = "<group>"; };
+		0486FF671D4CC55B00273597 /* FFVoicePlayTextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFVoicePlayTextController.m; sourceTree = "<group>"; };
+		0486FF691D4CC9D100273597 /* FFVoicePlayTextController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFVoicePlayTextController.xib; sourceTree = "<group>"; };
 		04CE411E1D3B8BEB009ED3F3 /* CollectionsOfExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionsOfExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE412B1D3B8BEB009ED3F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -124,8 +129,9 @@
 		040A75631D3B959800F728A9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				040A75641D3B959800F728A9 /* 程序入口 */,
 				040A75811D3B970800F728A9 /* Main(主界面) */,
+				040A75641D3B959800F728A9 /* 程序入口 */,
+				0486FF211D4CBDDC00273597 /* AVFoundation */,
 				040A757B1D3B970800F728A9 /* Example(例子) */,
 				040A75871D3B970800F728A9 /* Public(公共类) */,
 			);
@@ -360,6 +366,56 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		0486FF211D4CBDDC00273597 /* AVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				0486FF611D4CC4CC00273597 /* 001_语音播放文字内容 */,
+			);
+			path = AVFoundation;
+			sourceTree = "<group>";
+		};
+		0486FF611D4CC4CC00273597 /* 001_语音播放文字内容 */ = {
+			isa = PBXGroup;
+			children = (
+				0486FF621D4CC4CC00273597 /* Controller */,
+				0486FF631D4CC4CC00273597 /* Model */,
+				0486FF641D4CC4CC00273597 /* Tools */,
+				0486FF651D4CC4CC00273597 /* View */,
+			);
+			path = "001_语音播放文字内容";
+			sourceTree = "<group>";
+		};
+		0486FF621D4CC4CC00273597 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0486FF661D4CC55B00273597 /* FFVoicePlayTextController.h */,
+				0486FF671D4CC55B00273597 /* FFVoicePlayTextController.m */,
+				0486FF691D4CC9D100273597 /* FFVoicePlayTextController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0486FF631D4CC4CC00273597 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0486FF641D4CC4CC00273597 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0486FF651D4CC4CC00273597 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		04CE41151D3B8BEB009ED3F3 = {
 			isa = PBXGroup;
 			children = (
@@ -526,6 +582,7 @@
 				040A756E1D3B959800F728A9 /* Info.plist in Resources */,
 				04CE41311D3B8BEB009ED3F3 /* LaunchScreen.storyboard in Resources */,
 				040A75BB1D3BAA3400F728A9 /* FFExampleCell.xib in Resources */,
+				0486FF6A1D4CC9D100273597 /* FFVoicePlayTextController.xib in Resources */,
 				04CE412E1D3B8BEB009ED3F3 /* Assets.xcassets in Resources */,
 				04CE412C1D3B8BEB009ED3F3 /* Main.storyboard in Resources */,
 			);
@@ -557,6 +614,7 @@
 				040A75BF1D3BD10400F728A9 /* FFDifferentWidthTagVC.m in Sources */,
 				040A75CC1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m in Sources */,
 				040A75C31D3BD35300F728A9 /* FFDifferentWidthTagModel.m in Sources */,
+				0486FF681D4CC55B00273597 /* FFVoicePlayTextController.m in Sources */,
 				040A75C61D3BD56700F728A9 /* FFTableSectionHeaderView.m in Sources */,
 				040A758F1D3B976E00F728A9 /* FFViewController.m in Sources */,
 				040A75B61D3BA9CA00F728A9 /* UIViewController+Extension.m in Sources */,

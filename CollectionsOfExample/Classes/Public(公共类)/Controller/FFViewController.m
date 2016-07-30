@@ -25,5 +25,11 @@
 }
 
 
+/***********************************事件处理***********************************/
+#pragma mark - 事件处理
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.view endEditing:YES];
+}
+
 
 @end

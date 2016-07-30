@@ -10,6 +10,7 @@
 
 //controller
 #import "FFDifferentWidthTagVC.h"
+#import "FFVoicePlayTextController.h"
 
 //model
 #import "FFExampleModel.h"
@@ -23,7 +24,7 @@
 @interface FFMainViewController ()
 
 /** 数据源数组 */
-@property (nonatomic, strong) NSArray<FFExampleModel *> *dataSourceArr;
+@property (nonatomic, strong) NSArray<NSArray *> *dataSourceArr;
 
 @end
 
@@ -53,14 +54,33 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
 
 /***********************************懒加载***********************************/
 #pragma mark - 懒加载
+
+
 - (NSArray *)dataSourceArr {
+    
     if (_dataSourceArr == nil) {
+        /**************************小例子**************************/
+        
         //example_001(不同宽度的标签)
         FFExampleModel *model1 = [FFExampleModel exampleModelWithExampleName:@"不同宽度的标签" exampleImageName:@"" correspondClassName:@"FFDifferentWidthTagVC"];
         
+        NSArray *exampleArr = @[
+                               model1
+                               ];
+        
+        
+        /**************************AVFoundation******************/
+        FFExampleModel *afModel1 = [FFExampleModel exampleModelWithExampleName:@"语音播放文字内容" exampleImageName:@"" correspondClassName:@"FFVoicePlayTextController"];
+        
+        NSArray *avFoundationArr = @[
+                                     afModel1
+                                     ];
+        
         _dataSourceArr = @[
-                           model1
+                           exampleArr,
+                           avFoundationArr
                            ];
+        
     }
     return _dataSourceArr;
 }
@@ -68,16 +88,17 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
 /***********************************UITableViewDataSource***********************************/
 #pragma mark - UITableViewDataSource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.dataSourceArr.count;
 }
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.dataSourceArr[section].count;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
     FFExampleCell *cell = [tableView dequeueReusableCellWithIdentifier:FFExampleCellID];
-    cell.exampleModel = self.dataSourceArr[indexPath.row];
+    cell.exampleModel = self.dataSourceArr[indexPath.section][indexPath.row];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
@@ -86,15 +107,60 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
 /***********************************UITableViewDelegate***********************************/
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    FFExampleModel *exampleModel = self.dataSourceArr[indexPath.row];
-//    UIViewController *vc = [[UIViewController alloc] initWithNibName:exampleModel.correspondClassName bundle:nil];
-    FFDifferentWidthTagVC *vc = [FFDifferentWidthTagVC new];
+    if (indexPath.section == 0) { //例子
+        switch (indexPath.row) {
+            case 0: //不同宽度的标签
+            {
+                FFDifferentWidthTagVC *vc = [FFDifferentWidthTagVC new];
+                [self.navigationController pushViewController:vc animated:YES];
+                break;
+            }
+                
+            default:
+                break;
+        }
+        
+        
+    }
     
-    [self.navigationController pushViewController:vc animated:YES];
+    
+    else if (indexPath.section == 1) {//AVFoundation
+        switch (indexPath.row) {
+            case 0: //语音播放文字内容
+            {
+                FFVoicePlayTextController *vc = [FFVoicePlayTextController viewControllerFromNib];
+                [self.navigationController pushViewController:vc animated:YES];
+                break;
+            }
+            default:
+                break;
+        }
+        
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 70;
 }
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    
+    FFTableSectionHeaderView *headerView = [FFTableSectionHeaderView new];
+    if (section == 0) {
+        headerView.title = @"例子";
+    }
+    
+    else if (section == 1) {
+        headerView.title = @"AV Foundation";
+    }
+    
+    return headerView;
+}
+
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 44;
+}
+
 
 @end

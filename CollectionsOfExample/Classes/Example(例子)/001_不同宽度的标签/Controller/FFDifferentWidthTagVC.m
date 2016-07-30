@@ -43,7 +43,7 @@
 static NSString *const FFDifferentWidthTagCellID = @"FFDifferentWidthTagCell";
 - (void)setup {
     //navTitle
-    self.navigationItem.title = @"印象墙";
+    self.navigationItem.title = @"不同宽度的标签";
     
     UITableView *tableView = [[UITableView alloc] init];
     tableView.frame = self.view.bounds;
@@ -122,7 +122,7 @@ static NSString *const FFDifferentWidthTagCellID = @"FFDifferentWidthTagCell";
         _sectionHeaderTitleArr = @[
                                    @"Abby",
                                    @"ever",
-                                   @"Aimee",
+                                   @"Rose",
                                    @"Alisa",
                                    @"Angelia",
                                    @"Amanda",
@@ -147,6 +147,7 @@ static NSString *const FFDifferentWidthTagCellID = @"FFDifferentWidthTagCell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     FFDifferentWidthTagCell *cell = [tableView dequeueReusableCellWithIdentifier:FFDifferentWidthTagCellID];
     cell.tagModel = self.dataSourceArr[indexPath.section];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 
