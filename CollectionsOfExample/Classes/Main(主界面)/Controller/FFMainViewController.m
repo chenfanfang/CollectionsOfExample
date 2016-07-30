@@ -11,6 +11,7 @@
 //controller
 #import "FFDifferentWidthTagVC.h"
 #import "FFVoicePlayTextController.h"
+#import "FFSnowflakesFallingVC.h"
 
 //model
 #import "FFExampleModel.h"
@@ -64,18 +65,28 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
         //example_001(不同宽度的标签)
         FFExampleModel *model1 = [FFExampleModel exampleModelWithExampleName:@"不同宽度的标签" exampleImageName:@"" correspondClassName:@"FFDifferentWidthTagVC"];
         
+        //example_002(雪花飘落效果)
+        FFExampleModel *model2 = [FFExampleModel exampleModelWithExampleName:@"雪花飘落效果" exampleImageName:@"" correspondClassName:@"FFSnowflakesFallingVC"];
+        
         NSArray *exampleArr = @[
-                               model1
+                               model1,
+                               model2
                                ];
         
         
+        
+        
         /**************************AVFoundation******************/
+        
         FFExampleModel *afModel1 = [FFExampleModel exampleModelWithExampleName:@"语音播放文字内容" exampleImageName:@"" correspondClassName:@"FFVoicePlayTextController"];
         
         NSArray *avFoundationArr = @[
                                      afModel1
                                      ];
         
+        
+        //----------------
+        //----------------
         _dataSourceArr = @[
                            exampleArr,
                            avFoundationArr
@@ -112,6 +123,12 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
             case 0: //不同宽度的标签
             {
                 FFDifferentWidthTagVC *vc = [FFDifferentWidthTagVC new];
+                [self.navigationController pushViewController:vc animated:YES];
+                break;
+            }
+            case 1: //雪花飘落效果
+            {
+                FFSnowflakesFallingVC *vc = [FFSnowflakesFallingVC new];
                 [self.navigationController pushViewController:vc animated:YES];
                 break;
             }

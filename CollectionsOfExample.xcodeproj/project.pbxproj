@@ -27,6 +27,8 @@
 		040A75CC1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75CB1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m */; };
 		0486FF681D4CC55B00273597 /* FFVoicePlayTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF671D4CC55B00273597 /* FFVoicePlayTextController.m */; };
 		0486FF6A1D4CC9D100273597 /* FFVoicePlayTextController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0486FF691D4CC9D100273597 /* FFVoicePlayTextController.xib */; };
+		0486FF721D4CFF8900273597 /* FFSnowflakesFallingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF711D4CFF8900273597 /* FFSnowflakesFallingVC.m */; };
+		0486FF751D4D000800273597 /* FFSnowflakesFallingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF741D4D000800273597 /* FFSnowflakesFallingView.m */; };
 		04CE412C1D3B8BEB009ED3F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412A1D3B8BEB009ED3F3 /* Main.storyboard */; };
 		04CE412E1D3B8BEB009ED3F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */; };
 		04CE41311D3B8BEB009ED3F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412F1D3B8BEB009ED3F3 /* LaunchScreen.storyboard */; };
@@ -89,6 +91,10 @@
 		0486FF661D4CC55B00273597 /* FFVoicePlayTextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFVoicePlayTextController.h; sourceTree = "<group>"; };
 		0486FF671D4CC55B00273597 /* FFVoicePlayTextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFVoicePlayTextController.m; sourceTree = "<group>"; };
 		0486FF691D4CC9D100273597 /* FFVoicePlayTextController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFVoicePlayTextController.xib; sourceTree = "<group>"; };
+		0486FF701D4CFF8900273597 /* FFSnowflakesFallingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFSnowflakesFallingVC.h; sourceTree = "<group>"; };
+		0486FF711D4CFF8900273597 /* FFSnowflakesFallingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFSnowflakesFallingVC.m; sourceTree = "<group>"; };
+		0486FF731D4D000800273597 /* FFSnowflakesFallingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFSnowflakesFallingView.h; sourceTree = "<group>"; };
+		0486FF741D4D000800273597 /* FFSnowflakesFallingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFSnowflakesFallingView.m; sourceTree = "<group>"; };
 		04CE411E1D3B8BEB009ED3F3 /* CollectionsOfExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionsOfExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE412B1D3B8BEB009ED3F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -175,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				040A75A41D3BA7A000F728A9 /* 001_不同宽度的标签 */,
+				0486FF6B1D4CFF3200273597 /* 002_雪花飘落效果 */,
 			);
 			path = "Example(例子)";
 			sourceTree = "<group>";
@@ -416,6 +423,49 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		0486FF6B1D4CFF3200273597 /* 002_雪花飘落效果 */ = {
+			isa = PBXGroup;
+			children = (
+				0486FF6C1D4CFF3200273597 /* Controller */,
+				0486FF6D1D4CFF3200273597 /* Model */,
+				0486FF6E1D4CFF3200273597 /* Tool */,
+				0486FF6F1D4CFF3200273597 /* View */,
+			);
+			path = "002_雪花飘落效果";
+			sourceTree = "<group>";
+		};
+		0486FF6C1D4CFF3200273597 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0486FF701D4CFF8900273597 /* FFSnowflakesFallingVC.h */,
+				0486FF711D4CFF8900273597 /* FFSnowflakesFallingVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0486FF6D1D4CFF3200273597 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0486FF6E1D4CFF3200273597 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0486FF6F1D4CFF3200273597 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0486FF731D4D000800273597 /* FFSnowflakesFallingView.h */,
+				0486FF741D4D000800273597 /* FFSnowflakesFallingView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		04CE41151D3B8BEB009ED3F3 = {
 			isa = PBXGroup;
 			children = (
@@ -613,6 +663,7 @@
 				040A759D1D3BA27400F728A9 /* FFMainNavigationController.m in Sources */,
 				040A75BF1D3BD10400F728A9 /* FFDifferentWidthTagVC.m in Sources */,
 				040A75CC1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m in Sources */,
+				0486FF751D4D000800273597 /* FFSnowflakesFallingView.m in Sources */,
 				040A75C31D3BD35300F728A9 /* FFDifferentWidthTagModel.m in Sources */,
 				0486FF681D4CC55B00273597 /* FFVoicePlayTextController.m in Sources */,
 				040A75C61D3BD56700F728A9 /* FFTableSectionHeaderView.m in Sources */,
@@ -626,6 +677,7 @@
 				040A759A1D3BA26100F728A9 /* FFNavigationController.m in Sources */,
 				040A756D1D3B959800F728A9 /* main.m in Sources */,
 				040A75BA1D3BAA3400F728A9 /* FFExampleCell.m in Sources */,
+				0486FF721D4CFF8900273597 /* FFSnowflakesFallingVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
