@@ -25,7 +25,7 @@
 
 - (void)setup {
     
-
+    self.navigationBar.translucent = NO;
     
 //    self.navigationBar.tintColor = [UIColor whiteColor];
 //    self.navigationBar.translucent = NO;

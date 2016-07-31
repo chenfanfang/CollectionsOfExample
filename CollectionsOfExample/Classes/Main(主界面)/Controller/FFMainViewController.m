@@ -9,9 +9,11 @@
 #import "FFMainViewController.h"
 
 //controller
-#import "FFDifferentWidthTagVC.h"
-#import "FFVoicePlayTextController.h"
-#import "FFSnowflakesFallingVC.h"
+#import "FFDifferentWidthTagVC.h"//不同宽度的标签
+#import "FFVoicePlayTextController.h"//语音播放文字内容
+#import "FFSnowflakesFallingVC.h"//雪花飘落效果控制器
+#import "FFRegulationExpressDemoVC.h"//正则表达式demo控制器
+#import "FFCircleScrollPhotoVC.h" //无限滚动轮播图控制器
 
 //model
 #import "FFExampleModel.h"
@@ -47,7 +49,6 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
 
 - (void)setup {
     self.view.backgroundColor = FFColor(240, 240, 240);
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
     //注册cell
     FFRegisterCell(self.tableView, FFExampleCell, FFExampleCellID);
@@ -68,9 +69,19 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
         //example_002(雪花飘落效果)
         FFExampleModel *model2 = [FFExampleModel exampleModelWithExampleName:@"雪花飘落效果" exampleImageName:@"" correspondClassName:@"FFSnowflakesFallingVC"];
         
+        
+        //example_003(正则表达式demo)
+        FFExampleModel *model3 = [FFExampleModel exampleModelWithExampleName:@"正则表达式demo" exampleImageName:@"" correspondClassName:@"FFRegulationExpressDemoVC"];
+        
+        //example_004(无限滚动轮播图)
+        FFExampleModel *model4 = [FFExampleModel exampleModelWithExampleName:@"无限滚动轮播图" exampleImageName:@"" correspondClassName:@"FFCircleScrollPhotoVC"];
+        
+        
         NSArray *exampleArr = @[
                                model1,
-                               model2
+                               model2,
+                               model3,
+                               model4
                                ];
         
         
@@ -129,6 +140,18 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
             case 1: //雪花飘落效果
             {
                 FFSnowflakesFallingVC *vc = [FFSnowflakesFallingVC new];
+                [self.navigationController pushViewController:vc animated:YES];
+                break;
+            }
+            case 2: //正则表达式demo
+            {
+                FFRegulationExpressDemoVC *vc = [FFRegulationExpressDemoVC new];
+                [self.navigationController pushViewController:vc animated:YES];
+                break;
+            }
+            case 3: //无限滚动轮播图
+            {
+                FFCircleScrollPhotoVC *vc = [FFCircleScrollPhotoVC new];
                 [self.navigationController pushViewController:vc animated:YES];
                 break;
             }

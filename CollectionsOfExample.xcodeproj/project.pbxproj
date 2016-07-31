@@ -25,10 +25,16 @@
 		040A75C61D3BD56700F728A9 /* FFTableSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75C51D3BD56700F728A9 /* FFTableSectionHeaderView.m */; };
 		040A75C91D3BDD2600F728A9 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75C81D3BDD2600F728A9 /* NSString+Extension.m */; };
 		040A75CC1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75CB1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m */; };
+		04316E251D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04316E241D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.m */; };
+		04316E281D4DE49C00AE6392 /* FFCircleScrollPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04316E271D4DE49C00AE6392 /* FFCircleScrollPhotoView.m */; };
+		04316E311D4DF02900AE6392 /* FFCircleScrollPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04316E2F1D4DF02900AE6392 /* FFCircleScrollPhotoCell.m */; };
+		04316E321D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04316E301D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib */; };
 		0486FF681D4CC55B00273597 /* FFVoicePlayTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF671D4CC55B00273597 /* FFVoicePlayTextController.m */; };
 		0486FF6A1D4CC9D100273597 /* FFVoicePlayTextController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0486FF691D4CC9D100273597 /* FFVoicePlayTextController.xib */; };
 		0486FF721D4CFF8900273597 /* FFSnowflakesFallingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF711D4CFF8900273597 /* FFSnowflakesFallingVC.m */; };
 		0486FF751D4D000800273597 /* FFSnowflakesFallingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF741D4D000800273597 /* FFSnowflakesFallingView.m */; };
+		0486FF7D1D4D27FE00273597 /* FFRegulationExpressDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF7C1D4D27FE00273597 /* FFRegulationExpressDemoVC.m */; };
+		0486FF7F1D4D285200273597 /* FFRegulationExpressDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0486FF7E1D4D285200273597 /* FFRegulationExpressDemoVC.xib */; };
 		04CE412C1D3B8BEB009ED3F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412A1D3B8BEB009ED3F3 /* Main.storyboard */; };
 		04CE412E1D3B8BEB009ED3F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */; };
 		04CE41311D3B8BEB009ED3F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412F1D3B8BEB009ED3F3 /* LaunchScreen.storyboard */; };
@@ -88,6 +94,13 @@
 		040A75C81D3BDD2600F728A9 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		040A75CA1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDifferentWidthTagCell.h; sourceTree = "<group>"; };
 		040A75CB1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDifferentWidthTagCell.m; sourceTree = "<group>"; };
+		04316E231D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCircleScrollPhotoVC.h; sourceTree = "<group>"; };
+		04316E241D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCircleScrollPhotoVC.m; sourceTree = "<group>"; };
+		04316E261D4DE49C00AE6392 /* FFCircleScrollPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCircleScrollPhotoView.h; sourceTree = "<group>"; };
+		04316E271D4DE49C00AE6392 /* FFCircleScrollPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCircleScrollPhotoView.m; sourceTree = "<group>"; };
+		04316E2E1D4DF02900AE6392 /* FFCircleScrollPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCircleScrollPhotoCell.h; sourceTree = "<group>"; };
+		04316E2F1D4DF02900AE6392 /* FFCircleScrollPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCircleScrollPhotoCell.m; sourceTree = "<group>"; };
+		04316E301D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFCircleScrollPhotoCell.xib; sourceTree = "<group>"; };
 		0486FF661D4CC55B00273597 /* FFVoicePlayTextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFVoicePlayTextController.h; sourceTree = "<group>"; };
 		0486FF671D4CC55B00273597 /* FFVoicePlayTextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFVoicePlayTextController.m; sourceTree = "<group>"; };
 		0486FF691D4CC9D100273597 /* FFVoicePlayTextController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFVoicePlayTextController.xib; sourceTree = "<group>"; };
@@ -95,6 +108,9 @@
 		0486FF711D4CFF8900273597 /* FFSnowflakesFallingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFSnowflakesFallingVC.m; sourceTree = "<group>"; };
 		0486FF731D4D000800273597 /* FFSnowflakesFallingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFSnowflakesFallingView.h; sourceTree = "<group>"; };
 		0486FF741D4D000800273597 /* FFSnowflakesFallingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFSnowflakesFallingView.m; sourceTree = "<group>"; };
+		0486FF7B1D4D27FE00273597 /* FFRegulationExpressDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRegulationExpressDemoVC.h; sourceTree = "<group>"; };
+		0486FF7C1D4D27FE00273597 /* FFRegulationExpressDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRegulationExpressDemoVC.m; sourceTree = "<group>"; };
+		0486FF7E1D4D285200273597 /* FFRegulationExpressDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFRegulationExpressDemoVC.xib; sourceTree = "<group>"; };
 		04CE411E1D3B8BEB009ED3F3 /* CollectionsOfExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionsOfExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE412B1D3B8BEB009ED3F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -135,8 +151,8 @@
 		040A75631D3B959800F728A9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				040A75811D3B970800F728A9 /* Main(主界面) */,
 				040A75641D3B959800F728A9 /* 程序入口 */,
+				040A75811D3B970800F728A9 /* Main(主界面) */,
 				0486FF211D4CBDDC00273597 /* AVFoundation */,
 				040A757B1D3B970800F728A9 /* Example(例子) */,
 				040A75871D3B970800F728A9 /* Public(公共类) */,
@@ -182,6 +198,8 @@
 			children = (
 				040A75A41D3BA7A000F728A9 /* 001_不同宽度的标签 */,
 				0486FF6B1D4CFF3200273597 /* 002_雪花飘落效果 */,
+				0486FF761D4D27B800273597 /* 003_正则表达式Demo */,
+				04316E1E1D4DDCA800AE6392 /* 004_无限滚动轮播图 */,
 			);
 			path = "Example(例子)";
 			sourceTree = "<group>";
@@ -373,6 +391,52 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		04316E1E1D4DDCA800AE6392 /* 004_无限滚动轮播图 */ = {
+			isa = PBXGroup;
+			children = (
+				04316E1F1D4DDCA800AE6392 /* Controller */,
+				04316E201D4DDCA800AE6392 /* Model */,
+				04316E211D4DDCA800AE6392 /* Tools */,
+				04316E221D4DDCA800AE6392 /* View */,
+			);
+			path = "004_无限滚动轮播图";
+			sourceTree = "<group>";
+		};
+		04316E1F1D4DDCA800AE6392 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04316E231D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.h */,
+				04316E241D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04316E201D4DDCA800AE6392 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04316E211D4DDCA800AE6392 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		04316E221D4DDCA800AE6392 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04316E261D4DE49C00AE6392 /* FFCircleScrollPhotoView.h */,
+				04316E271D4DE49C00AE6392 /* FFCircleScrollPhotoView.m */,
+				04316E2E1D4DF02900AE6392 /* FFCircleScrollPhotoCell.h */,
+				04316E2F1D4DF02900AE6392 /* FFCircleScrollPhotoCell.m */,
+				04316E301D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0486FF211D4CBDDC00273597 /* AVFoundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -462,6 +526,48 @@
 			children = (
 				0486FF731D4D000800273597 /* FFSnowflakesFallingView.h */,
 				0486FF741D4D000800273597 /* FFSnowflakesFallingView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0486FF761D4D27B800273597 /* 003_正则表达式Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0486FF771D4D27B800273597 /* Controller */,
+				0486FF781D4D27B800273597 /* Model */,
+				0486FF791D4D27B800273597 /* Tools */,
+				0486FF7A1D4D27B800273597 /* View */,
+			);
+			path = "003_正则表达式Demo";
+			sourceTree = "<group>";
+		};
+		0486FF771D4D27B800273597 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0486FF7B1D4D27FE00273597 /* FFRegulationExpressDemoVC.h */,
+				0486FF7C1D4D27FE00273597 /* FFRegulationExpressDemoVC.m */,
+				0486FF7E1D4D285200273597 /* FFRegulationExpressDemoVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0486FF781D4D27B800273597 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0486FF791D4D27B800273597 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0486FF7A1D4D27B800273597 /* View */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -632,7 +738,9 @@
 				040A756E1D3B959800F728A9 /* Info.plist in Resources */,
 				04CE41311D3B8BEB009ED3F3 /* LaunchScreen.storyboard in Resources */,
 				040A75BB1D3BAA3400F728A9 /* FFExampleCell.xib in Resources */,
+				04316E321D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib in Resources */,
 				0486FF6A1D4CC9D100273597 /* FFVoicePlayTextController.xib in Resources */,
+				0486FF7F1D4D285200273597 /* FFRegulationExpressDemoVC.xib in Resources */,
 				04CE412E1D3B8BEB009ED3F3 /* Assets.xcassets in Resources */,
 				04CE412C1D3B8BEB009ED3F3 /* Main.storyboard in Resources */,
 			);
@@ -662,11 +770,14 @@
 				040A75B31D3BA94100F728A9 /* UIView+Extension.m in Sources */,
 				040A759D1D3BA27400F728A9 /* FFMainNavigationController.m in Sources */,
 				040A75BF1D3BD10400F728A9 /* FFDifferentWidthTagVC.m in Sources */,
+				0486FF7D1D4D27FE00273597 /* FFRegulationExpressDemoVC.m in Sources */,
 				040A75CC1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m in Sources */,
 				0486FF751D4D000800273597 /* FFSnowflakesFallingView.m in Sources */,
+				04316E281D4DE49C00AE6392 /* FFCircleScrollPhotoView.m in Sources */,
 				040A75C31D3BD35300F728A9 /* FFDifferentWidthTagModel.m in Sources */,
 				0486FF681D4CC55B00273597 /* FFVoicePlayTextController.m in Sources */,
 				040A75C61D3BD56700F728A9 /* FFTableSectionHeaderView.m in Sources */,
+				04316E251D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.m in Sources */,
 				040A758F1D3B976E00F728A9 /* FFViewController.m in Sources */,
 				040A75B61D3BA9CA00F728A9 /* UIViewController+Extension.m in Sources */,
 				040A75A01D3BA31400F728A9 /* FFTableViewController.m in Sources */,
@@ -676,6 +787,7 @@
 				040A756C1D3B959800F728A9 /* AppDelegate.m in Sources */,
 				040A759A1D3BA26100F728A9 /* FFNavigationController.m in Sources */,
 				040A756D1D3B959800F728A9 /* main.m in Sources */,
+				04316E311D4DF02900AE6392 /* FFCircleScrollPhotoCell.m in Sources */,
 				040A75BA1D3BAA3400F728A9 /* FFExampleCell.m in Sources */,
 				0486FF721D4CFF8900273597 /* FFSnowflakesFallingVC.m in Sources */,
 			);

@@ -51,7 +51,7 @@ static NSString *const FFDifferentWidthTagCellID = @"FFDifferentWidthTagCell";
     tableView.dataSource = self;
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
-    //注册cell
+    //注册cell  FFRegisterCellClass是自定义的宏，具体可以下载源码查看
     FFRegisterCellClass(tableView, FFDifferentWidthTagCell, FFDifferentWidthTagCellID);
     
     [self.view addSubview:tableView];
@@ -62,6 +62,9 @@ static NSString *const FFDifferentWidthTagCellID = @"FFDifferentWidthTagCell";
 - (NSMutableArray<FFDifferentWidthTagModel *> *)dataSourceArr {
     if (_dataSourceArr == nil) {
         _dataSourceArr = [NSMutableArray array];
+        
+        //以下for循环是为了产生随机个数、随机标签的数据源，读者不必研究以下for循环代码
+        
         for (int i = 0; i < 4; i++) {
             FFDifferentWidthTagModel *model = [FFDifferentWidthTagModel new];
             model.name = self.sectionHeaderTitleArr[i];

@@ -23,6 +23,9 @@
 
 @implementation FFDifferentWidthTagCell
 
+/***********************************set方法***********************************/
+#pragma mark - set方法
+
 - (void)setTagModel:(FFDifferentWidthTagModel *)tagModel {
     
     if (tagModel == _tagModel || tagModel == nil) {
@@ -31,7 +34,7 @@
     
     _tagModel = tagModel;
     
-    //移除按钮
+    //移除所有标签label
     for (UILabel *label in self.labelArrM) {
         [label removeFromSuperview];
     }
