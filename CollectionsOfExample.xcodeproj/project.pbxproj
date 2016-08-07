@@ -29,17 +29,30 @@
 		04316E281D4DE49C00AE6392 /* FFCircleScrollPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04316E271D4DE49C00AE6392 /* FFCircleScrollPhotoView.m */; };
 		04316E311D4DF02900AE6392 /* FFCircleScrollPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04316E2F1D4DF02900AE6392 /* FFCircleScrollPhotoCell.m */; };
 		04316E321D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04316E301D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib */; };
+		0456818B1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 045681891D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.m */; };
+		0456818C1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0456818A1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.xib */; };
+		047BCE561D56300700A1818D /* FFDropDownMenuBaseUsageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BCE551D56300700A1818D /* FFDropDownMenuBaseUsageVC.xib */; };
+		047BCE691D56615900A1818D /* FFDropDownMenuCustomXibCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BCE671D56615900A1818D /* FFDropDownMenuCustomXibCellVC.m */; };
+		047BCE6A1D56615900A1818D /* FFDropDownMenuCustomXibCellVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BCE681D56615900A1818D /* FFDropDownMenuCustomXibCellVC.xib */; };
+		047BCE6D1D56630800A1818D /* FFDropDownMenuCustomXibCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BCE6C1D56630800A1818D /* FFDropDownMenuCustomXibCellModel.m */; };
+		047BCE701D56643400A1818D /* FFDropDownMenuCustomXibCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BCE6F1D56643400A1818D /* FFDropDownMenuCustomXibCell.m */; };
+		047BCE721D56648700A1818D /* FFDropDownMenuCustomXibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BCE711D56648700A1818D /* FFDropDownMenuCustomXibCell.xib */; };
+		047BCE761D5676C400A1818D /* FFDropDownMenuCustomCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BCE741D5676C400A1818D /* FFDropDownMenuCustomCellVC.m */; };
+		047BCE771D5676C400A1818D /* FFDropDownMenuCustomCellVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BCE751D5676C400A1818D /* FFDropDownMenuCustomCellVC.xib */; };
+		047BCE7A1D5677FE00A1818D /* FFDropDownMenuCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 047BCE791D5677FE00A1818D /* FFDropDownMenuCustomCell.m */; };
 		0486FF681D4CC55B00273597 /* FFVoicePlayTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF671D4CC55B00273597 /* FFVoicePlayTextController.m */; };
 		0486FF6A1D4CC9D100273597 /* FFVoicePlayTextController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0486FF691D4CC9D100273597 /* FFVoicePlayTextController.xib */; };
 		0486FF721D4CFF8900273597 /* FFSnowflakesFallingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF711D4CFF8900273597 /* FFSnowflakesFallingVC.m */; };
 		0486FF751D4D000800273597 /* FFSnowflakesFallingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF741D4D000800273597 /* FFSnowflakesFallingView.m */; };
 		0486FF7D1D4D27FE00273597 /* FFRegulationExpressDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF7C1D4D27FE00273597 /* FFRegulationExpressDemoVC.m */; };
 		0486FF7F1D4D285200273597 /* FFRegulationExpressDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0486FF7E1D4D285200273597 /* FFRegulationExpressDemoVC.xib */; };
+		04B7FD2E1D55F198001E306E /* FFDropDownMenuBaseUsageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B7FD2D1D55F198001E306E /* FFDropDownMenuBaseUsageVC.m */; };
 		04CE412C1D3B8BEB009ED3F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412A1D3B8BEB009ED3F3 /* Main.storyboard */; };
 		04CE412E1D3B8BEB009ED3F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */; };
 		04CE41311D3B8BEB009ED3F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412F1D3B8BEB009ED3F3 /* LaunchScreen.storyboard */; };
 		04CE413C1D3B8BEB009ED3F3 /* CollectionsOfExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE413B1D3B8BEB009ED3F3 /* CollectionsOfExampleTests.m */; };
 		04CE41471D3B8BEB009ED3F3 /* CollectionsOfExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE41461D3B8BEB009ED3F3 /* CollectionsOfExampleUITests.m */; };
+		F27F6E267F9C59C3A2FC55C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC51EEE663470C49E2D4869 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +114,23 @@
 		04316E2E1D4DF02900AE6392 /* FFCircleScrollPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCircleScrollPhotoCell.h; sourceTree = "<group>"; };
 		04316E2F1D4DF02900AE6392 /* FFCircleScrollPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCircleScrollPhotoCell.m; sourceTree = "<group>"; };
 		04316E301D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFCircleScrollPhotoCell.xib; sourceTree = "<group>"; };
+		045681881D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDropDownMenuNextPageVC.h; sourceTree = "<group>"; };
+		045681891D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDropDownMenuNextPageVC.m; sourceTree = "<group>"; };
+		0456818A1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFDropDownMenuNextPageVC.xib; sourceTree = "<group>"; };
+		047BCE551D56300700A1818D /* FFDropDownMenuBaseUsageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFDropDownMenuBaseUsageVC.xib; sourceTree = "<group>"; };
+		047BCE661D56615900A1818D /* FFDropDownMenuCustomXibCellVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDropDownMenuCustomXibCellVC.h; sourceTree = "<group>"; };
+		047BCE671D56615900A1818D /* FFDropDownMenuCustomXibCellVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDropDownMenuCustomXibCellVC.m; sourceTree = "<group>"; };
+		047BCE681D56615900A1818D /* FFDropDownMenuCustomXibCellVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFDropDownMenuCustomXibCellVC.xib; sourceTree = "<group>"; };
+		047BCE6B1D56630800A1818D /* FFDropDownMenuCustomXibCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDropDownMenuCustomXibCellModel.h; sourceTree = "<group>"; };
+		047BCE6C1D56630800A1818D /* FFDropDownMenuCustomXibCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDropDownMenuCustomXibCellModel.m; sourceTree = "<group>"; };
+		047BCE6E1D56643400A1818D /* FFDropDownMenuCustomXibCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDropDownMenuCustomXibCell.h; sourceTree = "<group>"; };
+		047BCE6F1D56643400A1818D /* FFDropDownMenuCustomXibCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDropDownMenuCustomXibCell.m; sourceTree = "<group>"; };
+		047BCE711D56648700A1818D /* FFDropDownMenuCustomXibCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFDropDownMenuCustomXibCell.xib; sourceTree = "<group>"; };
+		047BCE731D5676C400A1818D /* FFDropDownMenuCustomCellVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDropDownMenuCustomCellVC.h; sourceTree = "<group>"; };
+		047BCE741D5676C400A1818D /* FFDropDownMenuCustomCellVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDropDownMenuCustomCellVC.m; sourceTree = "<group>"; };
+		047BCE751D5676C400A1818D /* FFDropDownMenuCustomCellVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFDropDownMenuCustomCellVC.xib; sourceTree = "<group>"; };
+		047BCE781D5677FE00A1818D /* FFDropDownMenuCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDropDownMenuCustomCell.h; sourceTree = "<group>"; };
+		047BCE791D5677FE00A1818D /* FFDropDownMenuCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDropDownMenuCustomCell.m; sourceTree = "<group>"; };
 		0486FF661D4CC55B00273597 /* FFVoicePlayTextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFVoicePlayTextController.h; sourceTree = "<group>"; };
 		0486FF671D4CC55B00273597 /* FFVoicePlayTextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFVoicePlayTextController.m; sourceTree = "<group>"; };
 		0486FF691D4CC9D100273597 /* FFVoicePlayTextController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFVoicePlayTextController.xib; sourceTree = "<group>"; };
@@ -111,6 +141,8 @@
 		0486FF7B1D4D27FE00273597 /* FFRegulationExpressDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRegulationExpressDemoVC.h; sourceTree = "<group>"; };
 		0486FF7C1D4D27FE00273597 /* FFRegulationExpressDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRegulationExpressDemoVC.m; sourceTree = "<group>"; };
 		0486FF7E1D4D285200273597 /* FFRegulationExpressDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFRegulationExpressDemoVC.xib; sourceTree = "<group>"; };
+		04B7FD2C1D55F198001E306E /* FFDropDownMenuBaseUsageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDropDownMenuBaseUsageVC.h; sourceTree = "<group>"; };
+		04B7FD2D1D55F198001E306E /* FFDropDownMenuBaseUsageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDropDownMenuBaseUsageVC.m; sourceTree = "<group>"; };
 		04CE411E1D3B8BEB009ED3F3 /* CollectionsOfExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionsOfExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE412B1D3B8BEB009ED3F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -121,6 +153,9 @@
 		04CE41421D3B8BEB009ED3F3 /* CollectionsOfExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionsOfExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE41461D3B8BEB009ED3F3 /* CollectionsOfExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionsOfExampleUITests.m; sourceTree = "<group>"; };
 		04CE41481D3B8BEB009ED3F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B8ED3395C6438A60DCC988 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9DC51EEE663470C49E2D4869 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0D7168465AB91D45A6862F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27F6E267F9C59C3A2FC55C8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +189,7 @@
 			children = (
 				040A75641D3B959800F728A9 /* 程序入口 */,
 				040A75811D3B970800F728A9 /* Main(主界面) */,
+				04B7FD261D55F103001E306E /* FFDropDownMenu */,
 				0486FF211D4CBDDC00273597 /* AVFoundation */,
 				040A757B1D3B970800F728A9 /* Example(例子) */,
 				040A75871D3B970800F728A9 /* Public(公共类) */,
@@ -437,6 +474,107 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		045681871D570CB600A0DBB2 /* 公共部分 */ = {
+			isa = PBXGroup;
+			children = (
+				045681881D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.h */,
+				045681891D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.m */,
+				0456818A1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.xib */,
+			);
+			path = "公共部分";
+			sourceTree = "<group>";
+		};
+		047BCE571D565D2D00A1818D /* 自定义菜单cell(非xib) */ = {
+			isa = PBXGroup;
+			children = (
+				047BCE581D565D2D00A1818D /* Controller */,
+				047BCE591D565D2D00A1818D /* Model */,
+				047BCE5A1D565D2D00A1818D /* Tools */,
+				047BCE5B1D565D2D00A1818D /* View */,
+			);
+			path = "自定义菜单cell(非xib)";
+			sourceTree = "<group>";
+		};
+		047BCE581D565D2D00A1818D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				047BCE731D5676C400A1818D /* FFDropDownMenuCustomCellVC.h */,
+				047BCE741D5676C400A1818D /* FFDropDownMenuCustomCellVC.m */,
+				047BCE751D5676C400A1818D /* FFDropDownMenuCustomCellVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		047BCE591D565D2D00A1818D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		047BCE5A1D565D2D00A1818D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		047BCE5B1D565D2D00A1818D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				047BCE781D5677FE00A1818D /* FFDropDownMenuCustomCell.h */,
+				047BCE791D5677FE00A1818D /* FFDropDownMenuCustomCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		047BCE5C1D565D2D00A1818D /* 自定义菜单cell(xib) */ = {
+			isa = PBXGroup;
+			children = (
+				047BCE5D1D565D2D00A1818D /* Controller */,
+				047BCE5E1D565D2D00A1818D /* Model */,
+				047BCE5F1D565D2D00A1818D /* Tools */,
+				047BCE601D565D2D00A1818D /* View */,
+			);
+			path = "自定义菜单cell(xib)";
+			sourceTree = "<group>";
+		};
+		047BCE5D1D565D2D00A1818D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				047BCE661D56615900A1818D /* FFDropDownMenuCustomXibCellVC.h */,
+				047BCE671D56615900A1818D /* FFDropDownMenuCustomXibCellVC.m */,
+				047BCE681D56615900A1818D /* FFDropDownMenuCustomXibCellVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		047BCE5E1D565D2D00A1818D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				047BCE6B1D56630800A1818D /* FFDropDownMenuCustomXibCellModel.h */,
+				047BCE6C1D56630800A1818D /* FFDropDownMenuCustomXibCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		047BCE5F1D565D2D00A1818D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		047BCE601D565D2D00A1818D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				047BCE6E1D56643400A1818D /* FFDropDownMenuCustomXibCell.h */,
+				047BCE6F1D56643400A1818D /* FFDropDownMenuCustomXibCell.m */,
+				047BCE711D56648700A1818D /* FFDropDownMenuCustomXibCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0486FF211D4CBDDC00273597 /* AVFoundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -572,6 +710,59 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		04B7FD261D55F103001E306E /* FFDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				04B7FD271D55F103001E306E /* 基本用法 */,
+				047BCE5C1D565D2D00A1818D /* 自定义菜单cell(xib) */,
+				047BCE571D565D2D00A1818D /* 自定义菜单cell(非xib) */,
+				045681871D570CB600A0DBB2 /* 公共部分 */,
+			);
+			path = FFDropDownMenu;
+			sourceTree = "<group>";
+		};
+		04B7FD271D55F103001E306E /* 基本用法 */ = {
+			isa = PBXGroup;
+			children = (
+				04B7FD281D55F103001E306E /* Controller */,
+				04B7FD291D55F103001E306E /* Model */,
+				04B7FD2A1D55F103001E306E /* Tools */,
+				04B7FD2B1D55F103001E306E /* View */,
+			);
+			path = "基本用法";
+			sourceTree = "<group>";
+		};
+		04B7FD281D55F103001E306E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04B7FD2C1D55F198001E306E /* FFDropDownMenuBaseUsageVC.h */,
+				04B7FD2D1D55F198001E306E /* FFDropDownMenuBaseUsageVC.m */,
+				047BCE551D56300700A1818D /* FFDropDownMenuBaseUsageVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04B7FD291D55F103001E306E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04B7FD2A1D55F103001E306E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		04B7FD2B1D55F103001E306E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		04CE41151D3B8BEB009ED3F3 = {
 			isa = PBXGroup;
 			children = (
@@ -579,6 +770,8 @@
 				04CE413A1D3B8BEB009ED3F3 /* CollectionsOfExampleTests */,
 				04CE41451D3B8BEB009ED3F3 /* CollectionsOfExampleUITests */,
 				04CE411F1D3B8BEB009ED3F3 /* Products */,
+				D566BA0E6378A2A6B3452AC7 /* Pods */,
+				D1C8743BBAE54E9FE8116568 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -631,6 +824,23 @@
 			path = CollectionsOfExampleUITests;
 			sourceTree = "<group>";
 		};
+		D1C8743BBAE54E9FE8116568 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DC51EEE663470C49E2D4869 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D566BA0E6378A2A6B3452AC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74B8ED3395C6438A60DCC988 /* Pods.debug.xcconfig */,
+				AD0D7168465AB91D45A6862F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -638,9 +848,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04CE414B1D3B8BEB009ED3F3 /* Build configuration list for PBXNativeTarget "CollectionsOfExample" */;
 			buildPhases = (
+				95A985B8A838AEACBE81D967 /* Check Pods Manifest.lock */,
 				04CE411A1D3B8BEB009ED3F3 /* Sources */,
 				04CE411B1D3B8BEB009ED3F3 /* Frameworks */,
 				04CE411C1D3B8BEB009ED3F3 /* Resources */,
+				025E991ADA1EB88729173462 /* Embed Pods Frameworks */,
+				CDA3CE2D6294CB9063FAFD64 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -736,11 +949,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				040A756E1D3B959800F728A9 /* Info.plist in Resources */,
+				047BCE561D56300700A1818D /* FFDropDownMenuBaseUsageVC.xib in Resources */,
 				04CE41311D3B8BEB009ED3F3 /* LaunchScreen.storyboard in Resources */,
+				047BCE721D56648700A1818D /* FFDropDownMenuCustomXibCell.xib in Resources */,
 				040A75BB1D3BAA3400F728A9 /* FFExampleCell.xib in Resources */,
+				047BCE771D5676C400A1818D /* FFDropDownMenuCustomCellVC.xib in Resources */,
 				04316E321D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib in Resources */,
 				0486FF6A1D4CC9D100273597 /* FFVoicePlayTextController.xib in Resources */,
+				0456818C1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.xib in Resources */,
 				0486FF7F1D4D285200273597 /* FFRegulationExpressDemoVC.xib in Resources */,
+				047BCE6A1D56615900A1818D /* FFDropDownMenuCustomXibCellVC.xib in Resources */,
 				04CE412E1D3B8BEB009ED3F3 /* Assets.xcassets in Resources */,
 				04CE412C1D3B8BEB009ED3F3 /* Main.storyboard in Resources */,
 			);
@@ -762,20 +980,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		025E991ADA1EB88729173462 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95A985B8A838AEACBE81D967 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDA3CE2D6294CB9063FAFD64 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04CE411A1D3B8BEB009ED3F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047BCE7A1D5677FE00A1818D /* FFDropDownMenuCustomCell.m in Sources */,
 				040A75B31D3BA94100F728A9 /* UIView+Extension.m in Sources */,
 				040A759D1D3BA27400F728A9 /* FFMainNavigationController.m in Sources */,
 				040A75BF1D3BD10400F728A9 /* FFDifferentWidthTagVC.m in Sources */,
 				0486FF7D1D4D27FE00273597 /* FFRegulationExpressDemoVC.m in Sources */,
+				047BCE6D1D56630800A1818D /* FFDropDownMenuCustomXibCellModel.m in Sources */,
+				047BCE761D5676C400A1818D /* FFDropDownMenuCustomCellVC.m in Sources */,
 				040A75CC1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m in Sources */,
 				0486FF751D4D000800273597 /* FFSnowflakesFallingView.m in Sources */,
 				04316E281D4DE49C00AE6392 /* FFCircleScrollPhotoView.m in Sources */,
 				040A75C31D3BD35300F728A9 /* FFDifferentWidthTagModel.m in Sources */,
 				0486FF681D4CC55B00273597 /* FFVoicePlayTextController.m in Sources */,
+				0456818B1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.m in Sources */,
 				040A75C61D3BD56700F728A9 /* FFTableSectionHeaderView.m in Sources */,
 				04316E251D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.m in Sources */,
 				040A758F1D3B976E00F728A9 /* FFViewController.m in Sources */,
@@ -785,9 +1055,12 @@
 				040A75A31D3BA4C300F728A9 /* FFExampleModel.m in Sources */,
 				040A75C91D3BDD2600F728A9 /* NSString+Extension.m in Sources */,
 				040A756C1D3B959800F728A9 /* AppDelegate.m in Sources */,
+				047BCE701D56643400A1818D /* FFDropDownMenuCustomXibCell.m in Sources */,
 				040A759A1D3BA26100F728A9 /* FFNavigationController.m in Sources */,
 				040A756D1D3B959800F728A9 /* main.m in Sources */,
 				04316E311D4DF02900AE6392 /* FFCircleScrollPhotoCell.m in Sources */,
+				04B7FD2E1D55F198001E306E /* FFDropDownMenuBaseUsageVC.m in Sources */,
+				047BCE691D56615900A1818D /* FFDropDownMenuCustomXibCellVC.m in Sources */,
 				040A75BA1D3BAA3400F728A9 /* FFExampleCell.m in Sources */,
 				0486FF721D4CFF8900273597 /* FFSnowflakesFallingVC.m in Sources */,
 			);
@@ -928,6 +1201,7 @@
 		};
 		04CE414C1D3B8BEB009ED3F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B8ED3395C6438A60DCC988 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -942,6 +1216,7 @@
 		};
 		04CE414D1D3B8BEB009ED3F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0D7168465AB91D45A6862F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

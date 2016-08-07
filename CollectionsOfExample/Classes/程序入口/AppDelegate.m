@@ -20,6 +20,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [application setStatusBarStyle:UIStatusBarStyleLightContent];
+    
     self.window = [[UIWindow alloc] initWithFrame:FFScreenBounds];
     
     FFMainNavigationController *rootVC = [[FFMainNavigationController alloc] initWithRootViewController:[FFMainViewController new]];

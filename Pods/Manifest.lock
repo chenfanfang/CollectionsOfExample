@@ -1,0 +1,10 @@
+PODS:
+  - FFDropDownMenu (1.1.4)
+
+DEPENDENCIES:
+  - FFDropDownMenu
+
+SPEC CHECKSUMS:
+  FFDropDownMenu: 2ba24b8b84d7d523a4bf0c8b0b8ca87a0b4dc380
+
+COCOAPODS: 0.39.0
