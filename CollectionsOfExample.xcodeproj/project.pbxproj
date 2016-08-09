@@ -52,6 +52,11 @@
 		04CE41311D3B8BEB009ED3F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412F1D3B8BEB009ED3F3 /* LaunchScreen.storyboard */; };
 		04CE413C1D3B8BEB009ED3F3 /* CollectionsOfExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE413B1D3B8BEB009ED3F3 /* CollectionsOfExampleTests.m */; };
 		04CE41471D3B8BEB009ED3F3 /* CollectionsOfExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE41461D3B8BEB009ED3F3 /* CollectionsOfExampleUITests.m */; };
+		04EA7C841D59A84100ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA7C831D59A84100ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.m */; };
+		04EA7C871D59A8C600ACB5DB /* FFUIWindowUsage_SingleScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA7C861D59A8C600ACB5DB /* FFUIWindowUsage_SingleScrollViewVC.m */; };
+		04EA7C8D1D59A9FC00ACB5DB /* FFUIWindowUsage_MultipleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA7C8C1D59A9FC00ACB5DB /* FFUIWindowUsage_MultipleScrollView.m */; };
+		04EA7C8F1D59AA4D00ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EA7C8E1D59AA4D00ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.xib */; };
+		04EA7C921D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA7C911D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.m */; };
 		F27F6E267F9C59C3A2FC55C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC51EEE663470C49E2D4869 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -153,6 +158,15 @@
 		04CE41421D3B8BEB009ED3F3 /* CollectionsOfExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionsOfExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CE41461D3B8BEB009ED3F3 /* CollectionsOfExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionsOfExampleUITests.m; sourceTree = "<group>"; };
 		04CE41481D3B8BEB009ED3F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EA7C821D59A84100ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFUIWindowUsage_ClickStatusBarScrollToTopVC.h; sourceTree = "<group>"; };
+		04EA7C831D59A84100ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFUIWindowUsage_ClickStatusBarScrollToTopVC.m; sourceTree = "<group>"; };
+		04EA7C851D59A8C600ACB5DB /* FFUIWindowUsage_SingleScrollViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFUIWindowUsage_SingleScrollViewVC.h; sourceTree = "<group>"; };
+		04EA7C861D59A8C600ACB5DB /* FFUIWindowUsage_SingleScrollViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFUIWindowUsage_SingleScrollViewVC.m; sourceTree = "<group>"; };
+		04EA7C8B1D59A9FC00ACB5DB /* FFUIWindowUsage_MultipleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFUIWindowUsage_MultipleScrollView.h; sourceTree = "<group>"; };
+		04EA7C8C1D59A9FC00ACB5DB /* FFUIWindowUsage_MultipleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFUIWindowUsage_MultipleScrollView.m; sourceTree = "<group>"; };
+		04EA7C8E1D59AA4D00ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFUIWindowUsage_ClickStatusBarScrollToTopVC.xib; sourceTree = "<group>"; };
+		04EA7C901D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFClickStatusBarScrollToTopManager.h; sourceTree = "<group>"; };
+		04EA7C911D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFClickStatusBarScrollToTopManager.m; sourceTree = "<group>"; };
 		74B8ED3395C6438A60DCC988 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9DC51EEE663470C49E2D4869 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0D7168465AB91D45A6862F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -237,6 +251,7 @@
 				0486FF6B1D4CFF3200273597 /* 002_雪花飘落效果 */,
 				0486FF761D4D27B800273597 /* 003_正则表达式Demo */,
 				04316E1E1D4DDCA800AE6392 /* 004_无限滚动轮播图 */,
+				04EA7C7D1D59A7CA00ACB5DB /* 006_UIWindow的巧用，点击状态栏滚动到最顶部 */,
 			);
 			path = "Example(例子)";
 			sourceTree = "<group>";
@@ -824,6 +839,54 @@
 			path = CollectionsOfExampleUITests;
 			sourceTree = "<group>";
 		};
+		04EA7C7D1D59A7CA00ACB5DB /* 006_UIWindow的巧用，点击状态栏滚动到最顶部 */ = {
+			isa = PBXGroup;
+			children = (
+				04EA7C7E1D59A7CA00ACB5DB /* Controller */,
+				04EA7C7F1D59A7CA00ACB5DB /* Model */,
+				04EA7C801D59A7CA00ACB5DB /* Tools */,
+				04EA7C811D59A7CA00ACB5DB /* View */,
+			);
+			path = "006_UIWindow的巧用，点击状态栏滚动到最顶部";
+			sourceTree = "<group>";
+		};
+		04EA7C7E1D59A7CA00ACB5DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04EA7C821D59A84100ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.h */,
+				04EA7C831D59A84100ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.m */,
+				04EA7C8E1D59AA4D00ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.xib */,
+				04EA7C851D59A8C600ACB5DB /* FFUIWindowUsage_SingleScrollViewVC.h */,
+				04EA7C861D59A8C600ACB5DB /* FFUIWindowUsage_SingleScrollViewVC.m */,
+				04EA7C8B1D59A9FC00ACB5DB /* FFUIWindowUsage_MultipleScrollView.h */,
+				04EA7C8C1D59A9FC00ACB5DB /* FFUIWindowUsage_MultipleScrollView.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04EA7C7F1D59A7CA00ACB5DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04EA7C801D59A7CA00ACB5DB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				04EA7C901D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.h */,
+				04EA7C911D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		04EA7C811D59A7CA00ACB5DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D1C8743BBAE54E9FE8116568 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -959,6 +1022,7 @@
 				0456818C1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.xib in Resources */,
 				0486FF7F1D4D285200273597 /* FFRegulationExpressDemoVC.xib in Resources */,
 				047BCE6A1D56615900A1818D /* FFDropDownMenuCustomXibCellVC.xib in Resources */,
+				04EA7C8F1D59AA4D00ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.xib in Resources */,
 				04CE412E1D3B8BEB009ED3F3 /* Assets.xcassets in Resources */,
 				04CE412C1D3B8BEB009ED3F3 /* Main.storyboard in Resources */,
 			);
@@ -1035,6 +1099,7 @@
 			files = (
 				047BCE7A1D5677FE00A1818D /* FFDropDownMenuCustomCell.m in Sources */,
 				040A75B31D3BA94100F728A9 /* UIView+Extension.m in Sources */,
+				04EA7C921D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.m in Sources */,
 				040A759D1D3BA27400F728A9 /* FFMainNavigationController.m in Sources */,
 				040A75BF1D3BD10400F728A9 /* FFDifferentWidthTagVC.m in Sources */,
 				0486FF7D1D4D27FE00273597 /* FFRegulationExpressDemoVC.m in Sources */,
@@ -1049,16 +1114,19 @@
 				040A75C61D3BD56700F728A9 /* FFTableSectionHeaderView.m in Sources */,
 				04316E251D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.m in Sources */,
 				040A758F1D3B976E00F728A9 /* FFViewController.m in Sources */,
+				04EA7C841D59A84100ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.m in Sources */,
 				040A75B61D3BA9CA00F728A9 /* UIViewController+Extension.m in Sources */,
 				040A75A01D3BA31400F728A9 /* FFTableViewController.m in Sources */,
 				040A75921D3B97AE00F728A9 /* FFMainViewController.m in Sources */,
 				040A75A31D3BA4C300F728A9 /* FFExampleModel.m in Sources */,
+				04EA7C8D1D59A9FC00ACB5DB /* FFUIWindowUsage_MultipleScrollView.m in Sources */,
 				040A75C91D3BDD2600F728A9 /* NSString+Extension.m in Sources */,
 				040A756C1D3B959800F728A9 /* AppDelegate.m in Sources */,
 				047BCE701D56643400A1818D /* FFDropDownMenuCustomXibCell.m in Sources */,
 				040A759A1D3BA26100F728A9 /* FFNavigationController.m in Sources */,
 				040A756D1D3B959800F728A9 /* main.m in Sources */,
 				04316E311D4DF02900AE6392 /* FFCircleScrollPhotoCell.m in Sources */,
+				04EA7C871D59A8C600ACB5DB /* FFUIWindowUsage_SingleScrollViewVC.m in Sources */,
 				04B7FD2E1D55F198001E306E /* FFDropDownMenuBaseUsageVC.m in Sources */,
 				047BCE691D56615900A1818D /* FFDropDownMenuCustomXibCellVC.m in Sources */,
 				040A75BA1D3BAA3400F728A9 /* FFExampleCell.m in Sources */,

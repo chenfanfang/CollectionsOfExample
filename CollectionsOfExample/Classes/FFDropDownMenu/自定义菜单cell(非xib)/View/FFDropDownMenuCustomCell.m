@@ -46,7 +46,7 @@
     return self;
 }
 
-- (void)layoutSubviews {
+- (void)layoutSubviews { //这个方法的主要任务是进行子控件frame的赋值
     [super layoutSubviews];
     //frame的赋值
     CGFloat separaterHeight = 1; //底部分割线高度
@@ -65,6 +65,7 @@
 }
 
 
+/** 重写setMenuModel---对控件进行赋值 */
 - (void)setMenuModel:(id)menuModel {
     _menuModel = menuModel;
     

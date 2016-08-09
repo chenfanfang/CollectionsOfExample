@@ -16,7 +16,7 @@
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lMV-Oj-WmU" userLabel="底部蓝色的分割线">
                         <rect key="frame" x="0.0" y="42" width="320" height="1"/>
-                        <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="1" id="NPc-PK-hfm"/>
                         </constraints>
@@ -51,7 +51,7 @@
                 <outlet property="iconImageView" destination="i9X-F2-iDE" id="xMZ-9a-0MM"/>
                 <outlet property="title_Label" destination="U3p-lq-fAg" id="ndM-Vr-g13"/>
             </connections>
-            <point key="canvasLocation" x="515" y="333"/>
+            <point key="canvasLocation" x="550" y="424"/>
         </tableViewCell>
     </objects>
 </document>

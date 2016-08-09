@@ -45,15 +45,22 @@
 /** 创建下拉菜单方式1 */
 - (void)createDropdownMenuMethodOne {
     
-    //默认CGFloat     请使用 FFDefaultFloat
-    //默认CGSize      请使用 FFDefaultSize
-    //默认Cell        请使用 FFDefaultCell
-    //默认Color       请使用 FFDefaultColor
-    //默认ScaleType   请使用 FFDefaultMenuScaleType
+    //若使用默认CGFloat值     请使用 FFDefaultFloat
+    //若使用默认CGSize值      请使用 FFDefaultSize
+    //若使用默认Cell值        请使用 FFDefaultCell
+    //若使用默认Color值       请使用 FFDefaultColor
+    //若使用默认ScaleType值   请使用 FFDefaultMenuScaleType
     
     NSArray *menuModelsArr = [self getDropDownMenuModelsArray];
     self.dropDownMenu = [FFDropDownMenuView ff_DefaultStyleDropDownMenuWithMenuModelsArray:menuModelsArr menuWidth:145 eachItemHeight:40 menuRightMargin:10 triangleRightMargin:20];
     
+    //若还需要对别的属性进行赋值，则可以再对别的属性进行赋值，最后一定要调用setup方法。如下
+    
+    /*
+    self.dropDownMenu.menuScaleType = FFDropDownMenuViewScaleType_TopRight;
+    self.dropDownMenu...... = ......;
+    [self.dropDownMenu setup];
+     */
 }
 
 
@@ -64,11 +71,11 @@
     
     //进行属性的赋值
     
-    //默认CGFloat     请使用 FFDefaultFloat          、或者无需进行赋值
-    //默认CGSize      请使用 FFDefaultSize           、或者无需进行赋值
-    //默认Cell        请使用 FFDefaultCell           、或者无需进行赋值
-    //默认Color       请使用 FFDefaultColor          、或者无需进行赋值
-    //默认ScaleType   请使用 FFDefaultMenuScaleType  、或者无需进行赋值
+    //若使用默认CGFloat值     请使用 FFDefaultFloat          、或者无需进行赋值
+    //若使用默认CGSize值      请使用 FFDefaultSize           、或者无需进行赋值
+    //若使用默认Cell值        请使用 FFDefaultCell           、或者无需进行赋值
+    //若使用默认Color值       请使用 FFDefaultColor          、或者无需进行赋值
+    //若使用默认ScaleType值   请使用 FFDefaultMenuScaleType  、或者无需进行赋值
     
     
     /** 下拉菜单模型数组 */
@@ -159,7 +166,6 @@
     [menuButton setImage:[UIImage imageNamed:@"nemuItem"] forState:UIControlStateNormal];
     [menuButton addTarget:self.dropDownMenu action:@selector(showMenu) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:menuButton];
-    
     self.navigationItem.title = @"FFDropDownMenu的基本用法";
 }
 

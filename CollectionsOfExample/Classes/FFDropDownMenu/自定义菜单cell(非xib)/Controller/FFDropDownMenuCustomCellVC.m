@@ -58,6 +58,7 @@
     menuModel0.menuItemTitle = @"Twitter";
     menuModel0.menuItemIconName = @"menu0";
     menuModel0.menuBlock = ^ {
+
         FFDropDownMenuNextPageVC *vc = [FFDropDownMenuNextPageVC new];
         vc.navigationItem.title = @"Twitter";
         [weakSelf.navigationController pushViewController:vc animated:YES];
@@ -126,7 +127,7 @@
     [menuButton addTarget:self.dropDownMenu action:@selector(showMenu) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:menuButton];
     
-    self.navigationItem.title = @"FFDropDownMenu的基本用法";
+    self.navigationItem.title = @"自定义菜单cell(非xib)";
 }
 
 

@@ -18,7 +18,7 @@
 #import "FFSnowflakesFallingVC.h"//雪花飘落效果控制器
 #import "FFRegulationExpressDemoVC.h"//正则表达式demo控制器
 #import "FFCircleScrollPhotoVC.h" //无限滚动轮播图控制器
-
+#import "FFUIWindowUsage_ClickStatusBarScrollToTopVC.h" //点击状态栏、scrollView自动滚动到顶部
 
 //------------------
 //    AVFoundation
@@ -96,11 +96,17 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
         //example_004(无限滚动轮播图)
         FFExampleModel *model4 = [FFExampleModel exampleModelWithExampleName:@"无限滚动轮播图" exampleImageName:@"" correspondClassName:@"FFCircleScrollPhotoVC"];
         
+        
+        //example_006(无限滚动轮播图)
+        FFExampleModel *model6 = [FFExampleModel exampleModelWithExampleName:@"UIWindow巧用--点击状态栏滚动到顶部" exampleImageName:@"" correspondClassName:@"FFUIWindowUsage_ClickStatusBarScrollToTopVC"];
+        
+        
         NSArray *exampleArr = @[
                                model1,
                                model2,
                                model3,
-                               model4
+                               model4,
+                               model6
                                ];
         
         
@@ -190,6 +196,12 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
                 break;
             }
                 
+            case 4: //点击状态栏、scrollView自动滚动到顶部
+            {
+                FFUIWindowUsage_ClickStatusBarScrollToTopVC *vc = [FFUIWindowUsage_ClickStatusBarScrollToTopVC new];
+                [self.navigationController pushViewController:vc animated:YES];
+                break;
+            }
                 
             default:
                 break;

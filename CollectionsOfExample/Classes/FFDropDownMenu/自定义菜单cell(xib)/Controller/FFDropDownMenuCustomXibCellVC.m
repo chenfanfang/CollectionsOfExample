@@ -41,7 +41,7 @@
     self.dropDownMenu = [FFDropDownMenuView new];
     self.dropDownMenu.menuModelsArray = menuModelsArr;
     self.dropDownMenu.cellClassName = @"FFDropDownMenuCustomXibCell.xib";
-    self.dropDownMenu.menuItemBackgroundColor = FFColor(255, 255, 255, 0.9);
+    self.dropDownMenu.menuItemBackgroundColor = FFColor(255, 255, 255, 0.7);
     self.dropDownMenu.triangleColor = self.dropDownMenu.menuItemBackgroundColor;
     [self.dropDownMenu setup];
 }
@@ -120,6 +120,7 @@
     menuModel5.title = @"Facebook";
     menuModel5.iconName = @"menu5";
     menuModel5.menuBlock = ^ {
+
         FFDropDownMenuNextPageVC *vc = [FFDropDownMenuNextPageVC new];
         vc.navigationItem.title = @"Facebook";
         [weakSelf.navigationController pushViewController:vc animated:YES];
@@ -138,7 +139,7 @@
     [menuButton addTarget:self.dropDownMenu action:@selector(showMenu) forControlEvents:UIControlEventTouchUpInside];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:menuButton];
     
-    self.navigationItem.title = @"FFDropDownMenu的基本用法";
+    self.navigationItem.title = @"自定义菜单cell(xib)";
 }
 
 

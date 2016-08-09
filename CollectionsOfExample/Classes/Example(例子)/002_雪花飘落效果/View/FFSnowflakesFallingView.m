@@ -69,7 +69,7 @@
     
 
     //雪花起点y
-    int startY = - (arc4random() % 100);
+    int startY = - (arc4random() % 200);
     //雪花起点x
     int startX = arc4random() % (int)[UIScreen mainScreen].bounds.size.width;
     //雪花终点x
