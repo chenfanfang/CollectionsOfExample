@@ -33,6 +33,7 @@
 #import "FFDropDownMenuBaseUsageVC.h"//FFDropDownMenu基本用法控制器
 #import "FFDropDownMenuCustomXibCellVC.h" //自定义菜单cell (xib类型) 控制器
 #import "FFDropDownMenuCustomCellVC.h" //自定义菜单cell (非xib类型) 控制器
+#import "FFDropDownCustomMenuStyle1VC.h" // 实战----自定义菜单样式1
 
 
 
@@ -122,16 +123,20 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
         
         /***********************FFDropDownMenu******************/
         
-        FFExampleModel *menuModel1 = [FFExampleModel exampleModelWithExampleName:@"下拉菜单的基本使用" exampleImageName:@"" correspondClassName:@"FFDropDownMenuBaseUsageVC"];
+        FFExampleModel *menuModel1 = [FFExampleModel exampleModelWithExampleName:@"教程----下拉菜单的基本使用" exampleImageName:@"" correspondClassName:@"FFDropDownMenuBaseUsageVC"];
         
-        FFExampleModel *menuModel2 = [FFExampleModel exampleModelWithExampleName:@"自定义菜单cell(xib)" exampleImageName:@"" correspondClassName:@"FFDropDownMenuCustomXibCellVC"];
+        FFExampleModel *menuModel2 = [FFExampleModel exampleModelWithExampleName:@"教程----自定义菜单cell(xib)" exampleImageName:@"" correspondClassName:@"FFDropDownMenuCustomXibCellVC"];
         
-        FFExampleModel *menuModel3 = [FFExampleModel exampleModelWithExampleName:@"自定义菜单cell(非xib)" exampleImageName:@"" correspondClassName:@"FFDropDownMenuCustomCellVC"];
+        FFExampleModel *menuModel3 = [FFExampleModel exampleModelWithExampleName:@"教程----自定义菜单cell(非xib)" exampleImageName:@"" correspondClassName:@"FFDropDownMenuCustomCellVC"];
         
+        FFExampleModel *menuModel4 = [FFExampleModel exampleModelWithExampleName:@"实战----自定义菜单样式1" exampleImageName:@"" correspondClassName:@"FFDropDownCustomMenuStyle1VC"];
+        
+
         NSArray *menuArr = @[
                              menuModel1,
                              menuModel2,
-                             menuModel3
+                             menuModel3,
+                             menuModel4
                              ];
         
         
@@ -247,6 +252,14 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
                 [self.navigationController pushViewController:vc animated:YES];
                 break;
             }
+            case 3: //FFDropDownMenu自定义菜单cell(非xib)
+            {
+                FFDropDownCustomMenuStyle1VC *vc = [FFDropDownCustomMenuStyle1VC new];
+                [self.navigationController pushViewController:vc animated:YES];
+                break;
+            }
+                
+                
                 
                 
             default:

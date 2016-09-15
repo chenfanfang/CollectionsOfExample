@@ -105,7 +105,7 @@
     /** 动画效果时间(若不设置，默认为0.2) */
     self.dropDownMenu.animateDuration = FFDefaultFloat;
     /** 菜单的伸缩类型 */
-    self.dropDownMenu.menuScaleType = FFDefaultMenuScaleType;
+    self.dropDownMenu.menuAnimateType = FFDefaultMenuScaleType;
     
     
     //所有属性赋值完 一定要调用 setup

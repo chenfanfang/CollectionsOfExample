@@ -46,6 +46,11 @@
 		0486FF751D4D000800273597 /* FFSnowflakesFallingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF741D4D000800273597 /* FFSnowflakesFallingView.m */; };
 		0486FF7D1D4D27FE00273597 /* FFRegulationExpressDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486FF7C1D4D27FE00273597 /* FFRegulationExpressDemoVC.m */; };
 		0486FF7F1D4D285200273597 /* FFRegulationExpressDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0486FF7E1D4D285200273597 /* FFRegulationExpressDemoVC.xib */; };
+		0489D8F21D5DCF0900E53724 /* FFDropDownCustomMenuStyle1Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489D8F11D5DCF0900E53724 /* FFDropDownCustomMenuStyle1Cell.m */; };
+		0489D8F41D5DD88000E53724 /* FFDropDownCustomMenuStyle1Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0489D8F31D5DD88000E53724 /* FFDropDownCustomMenuStyle1Cell.xib */; };
+		0489D8F71D5DDD8300E53724 /* FFDropDownCustomMenuStyle1Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 0489D8F61D5DDD8300E53724 /* FFDropDownCustomMenuStyle1Model.m */; };
+		04AEEDF01D5DCA810088E712 /* FFDropDownCustomMenuStyle1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AEEDEF1D5DCA810088E712 /* FFDropDownCustomMenuStyle1VC.m */; };
+		04AEEDF21D5DCAA70088E712 /* FFDropDownCustomMenuStyle1VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AEEDF11D5DCAA70088E712 /* FFDropDownCustomMenuStyle1VC.xib */; };
 		04B7FD2E1D55F198001E306E /* FFDropDownMenuBaseUsageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B7FD2D1D55F198001E306E /* FFDropDownMenuBaseUsageVC.m */; };
 		04CE412C1D3B8BEB009ED3F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412A1D3B8BEB009ED3F3 /* Main.storyboard */; };
 		04CE412E1D3B8BEB009ED3F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE412D1D3B8BEB009ED3F3 /* Assets.xcassets */; };
@@ -146,6 +151,14 @@
 		0486FF7B1D4D27FE00273597 /* FFRegulationExpressDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRegulationExpressDemoVC.h; sourceTree = "<group>"; };
 		0486FF7C1D4D27FE00273597 /* FFRegulationExpressDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRegulationExpressDemoVC.m; sourceTree = "<group>"; };
 		0486FF7E1D4D285200273597 /* FFRegulationExpressDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFRegulationExpressDemoVC.xib; sourceTree = "<group>"; };
+		0489D8F01D5DCF0900E53724 /* FFDropDownCustomMenuStyle1Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDropDownCustomMenuStyle1Cell.h; sourceTree = "<group>"; };
+		0489D8F11D5DCF0900E53724 /* FFDropDownCustomMenuStyle1Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDropDownCustomMenuStyle1Cell.m; sourceTree = "<group>"; };
+		0489D8F31D5DD88000E53724 /* FFDropDownCustomMenuStyle1Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFDropDownCustomMenuStyle1Cell.xib; sourceTree = "<group>"; };
+		0489D8F51D5DDD8300E53724 /* FFDropDownCustomMenuStyle1Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDropDownCustomMenuStyle1Model.h; sourceTree = "<group>"; };
+		0489D8F61D5DDD8300E53724 /* FFDropDownCustomMenuStyle1Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDropDownCustomMenuStyle1Model.m; sourceTree = "<group>"; };
+		04AEEDEE1D5DCA810088E712 /* FFDropDownCustomMenuStyle1VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDropDownCustomMenuStyle1VC.h; sourceTree = "<group>"; };
+		04AEEDEF1D5DCA810088E712 /* FFDropDownCustomMenuStyle1VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDropDownCustomMenuStyle1VC.m; sourceTree = "<group>"; };
+		04AEEDF11D5DCAA70088E712 /* FFDropDownCustomMenuStyle1VC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFDropDownCustomMenuStyle1VC.xib; sourceTree = "<group>"; };
 		04B7FD2C1D55F198001E306E /* FFDropDownMenuBaseUsageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDropDownMenuBaseUsageVC.h; sourceTree = "<group>"; };
 		04B7FD2D1D55F198001E306E /* FFDropDownMenuBaseUsageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDropDownMenuBaseUsageVC.m; sourceTree = "<group>"; };
 		04CE411E1D3B8BEB009ED3F3 /* CollectionsOfExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionsOfExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -499,7 +512,7 @@
 			path = "公共部分";
 			sourceTree = "<group>";
 		};
-		047BCE571D565D2D00A1818D /* 自定义菜单cell(非xib) */ = {
+		047BCE571D565D2D00A1818D /* 教程____自定义菜单cell(非xib) */ = {
 			isa = PBXGroup;
 			children = (
 				047BCE581D565D2D00A1818D /* Controller */,
@@ -507,6 +520,7 @@
 				047BCE5A1D565D2D00A1818D /* Tools */,
 				047BCE5B1D565D2D00A1818D /* View */,
 			);
+			name = "教程____自定义菜单cell(非xib)";
 			path = "自定义菜单cell(非xib)";
 			sourceTree = "<group>";
 		};
@@ -543,7 +557,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		047BCE5C1D565D2D00A1818D /* 自定义菜单cell(xib) */ = {
+		047BCE5C1D565D2D00A1818D /* 教程____自定义菜单cell(xib) */ = {
 			isa = PBXGroup;
 			children = (
 				047BCE5D1D565D2D00A1818D /* Controller */,
@@ -551,6 +565,7 @@
 				047BCE5F1D565D2D00A1818D /* Tools */,
 				047BCE601D565D2D00A1818D /* View */,
 			);
+			name = "教程____自定义菜单cell(xib)";
 			path = "自定义菜单cell(xib)";
 			sourceTree = "<group>";
 		};
@@ -725,12 +740,60 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		04AEEDE01D5DC8BC0088E712 /* ------------------------------ */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "------------------------------";
+			sourceTree = "<group>";
+		};
+		04AEEDEA1D5DCA4B0088E712 /* 实战____自定义菜单效果1 */ = {
+			isa = PBXGroup;
+			children = (
+				04AEEDEB1D5DCA4B0088E712 /* Controller */,
+				04AEEDEC1D5DCA4B0088E712 /* Model */,
+				04AEEDED1D5DCA4B0088E712 /* View */,
+			);
+			path = "实战____自定义菜单效果1";
+			sourceTree = "<group>";
+		};
+		04AEEDEB1D5DCA4B0088E712 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04AEEDEE1D5DCA810088E712 /* FFDropDownCustomMenuStyle1VC.h */,
+				04AEEDEF1D5DCA810088E712 /* FFDropDownCustomMenuStyle1VC.m */,
+				04AEEDF11D5DCAA70088E712 /* FFDropDownCustomMenuStyle1VC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04AEEDEC1D5DCA4B0088E712 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0489D8F51D5DDD8300E53724 /* FFDropDownCustomMenuStyle1Model.h */,
+				0489D8F61D5DDD8300E53724 /* FFDropDownCustomMenuStyle1Model.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04AEEDED1D5DCA4B0088E712 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0489D8F01D5DCF0900E53724 /* FFDropDownCustomMenuStyle1Cell.h */,
+				0489D8F11D5DCF0900E53724 /* FFDropDownCustomMenuStyle1Cell.m */,
+				0489D8F31D5DD88000E53724 /* FFDropDownCustomMenuStyle1Cell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		04B7FD261D55F103001E306E /* FFDropDownMenu */ = {
 			isa = PBXGroup;
 			children = (
 				04B7FD271D55F103001E306E /* 基本用法 */,
-				047BCE5C1D565D2D00A1818D /* 自定义菜单cell(xib) */,
-				047BCE571D565D2D00A1818D /* 自定义菜单cell(非xib) */,
+				047BCE5C1D565D2D00A1818D /* 教程____自定义菜单cell(xib) */,
+				047BCE571D565D2D00A1818D /* 教程____自定义菜单cell(非xib) */,
+				04AEEDEA1D5DCA4B0088E712 /* 实战____自定义菜单效果1 */,
+				04AEEDE01D5DC8BC0088E712 /* ------------------------------ */,
 				045681871D570CB600A0DBB2 /* 公共部分 */,
 			);
 			path = FFDropDownMenu;
@@ -1017,10 +1080,12 @@
 				047BCE721D56648700A1818D /* FFDropDownMenuCustomXibCell.xib in Resources */,
 				040A75BB1D3BAA3400F728A9 /* FFExampleCell.xib in Resources */,
 				047BCE771D5676C400A1818D /* FFDropDownMenuCustomCellVC.xib in Resources */,
+				0489D8F41D5DD88000E53724 /* FFDropDownCustomMenuStyle1Cell.xib in Resources */,
 				04316E321D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib in Resources */,
 				0486FF6A1D4CC9D100273597 /* FFVoicePlayTextController.xib in Resources */,
 				0456818C1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.xib in Resources */,
 				0486FF7F1D4D285200273597 /* FFRegulationExpressDemoVC.xib in Resources */,
+				04AEEDF21D5DCAA70088E712 /* FFDropDownCustomMenuStyle1VC.xib in Resources */,
 				047BCE6A1D56615900A1818D /* FFDropDownMenuCustomXibCellVC.xib in Resources */,
 				04EA7C8F1D59AA4D00ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.xib in Resources */,
 				04CE412E1D3B8BEB009ED3F3 /* Assets.xcassets in Resources */,
@@ -1097,6 +1162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0489D8F71D5DDD8300E53724 /* FFDropDownCustomMenuStyle1Model.m in Sources */,
 				047BCE7A1D5677FE00A1818D /* FFDropDownMenuCustomCell.m in Sources */,
 				040A75B31D3BA94100F728A9 /* UIView+Extension.m in Sources */,
 				04EA7C921D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.m in Sources */,
@@ -1105,7 +1171,9 @@
 				0486FF7D1D4D27FE00273597 /* FFRegulationExpressDemoVC.m in Sources */,
 				047BCE6D1D56630800A1818D /* FFDropDownMenuCustomXibCellModel.m in Sources */,
 				047BCE761D5676C400A1818D /* FFDropDownMenuCustomCellVC.m in Sources */,
+				0489D8F21D5DCF0900E53724 /* FFDropDownCustomMenuStyle1Cell.m in Sources */,
 				040A75CC1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m in Sources */,
+				04AEEDF01D5DCA810088E712 /* FFDropDownCustomMenuStyle1VC.m in Sources */,
 				0486FF751D4D000800273597 /* FFSnowflakesFallingView.m in Sources */,
 				04316E281D4DE49C00AE6392 /* FFCircleScrollPhotoView.m in Sources */,
 				040A75C31D3BD35300F728A9 /* FFDifferentWidthTagModel.m in Sources */,
