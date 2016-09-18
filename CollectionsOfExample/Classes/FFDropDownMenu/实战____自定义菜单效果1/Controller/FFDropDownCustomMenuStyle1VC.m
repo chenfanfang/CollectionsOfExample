@@ -127,13 +127,6 @@
     
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self.dropDownMenu action:@selector(showMenu)];
     
-    /*
-    UIButton *menuButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 27, 27)];
-    [menuButton setImage:[UIImage imageNamed:@"nemuItem"] forState:UIControlStateNormal];
-    [menuButton addTarget:self.dropDownMenu action:@selector(showMenu) forControlEvents:UIControlEventTouchUpInside];
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:menuButton];
-     */
-    
     self.navigationItem.title = @"实战:自定义菜单效果1";
     
     

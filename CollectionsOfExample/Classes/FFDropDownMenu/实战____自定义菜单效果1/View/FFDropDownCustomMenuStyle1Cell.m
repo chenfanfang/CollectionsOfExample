@@ -25,6 +25,7 @@
     
     _menuModel = menuModel;
     
+    //在这里将模型转成自定义的模型
     FFDropDownCustomMenuStyle1Model *realModel = (FFDropDownCustomMenuStyle1Model *)menuModel;
     
     self.mainTitle_Label.backgroundColor = realModel.mainTitleBgColor;

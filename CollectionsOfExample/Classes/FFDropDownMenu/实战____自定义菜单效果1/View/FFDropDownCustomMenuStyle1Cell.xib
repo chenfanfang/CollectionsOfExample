@@ -65,7 +65,7 @@
                 <outlet property="mainTitle_Label" destination="JGS-KV-Eis" id="q2d-Bo-nW4"/>
                 <outlet property="subTitle_Label" destination="0L4-hY-GxR" id="2XS-z1-lpg"/>
             </connections>
-            <point key="canvasLocation" x="550.5" y="337"/>
+            <point key="canvasLocation" x="541.5" y="608"/>
         </tableViewCell>
     </objects>
     <resources>

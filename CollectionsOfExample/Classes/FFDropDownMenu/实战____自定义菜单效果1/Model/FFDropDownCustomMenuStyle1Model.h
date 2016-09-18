@@ -19,4 +19,7 @@
 /** 副标题 */
 @property (nonatomic, copy) NSString *subTitle;
 
+
+//菜单模型创建的属性用于自定义菜单cell，所以需要什么属性，自己定义
+
 @end
