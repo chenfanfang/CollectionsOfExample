@@ -1,10 +1,13 @@
 PODS:
   - FFDropDownMenu (1.3.5)
+  - UITableView+FDTemplateLayoutCell (1.4)
 
 DEPENDENCIES:
   - FFDropDownMenu
+  - UITableView+FDTemplateLayoutCell
 
 SPEC CHECKSUMS:
   FFDropDownMenu: 224d40f7996f0dfdc5593e0e269fc585fed72e54
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
 
 COCOAPODS: 0.39.0

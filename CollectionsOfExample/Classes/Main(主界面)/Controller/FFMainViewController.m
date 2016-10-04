@@ -10,31 +10,38 @@
 
 //Controller
 
-//------------------
-//     例子
-//------------------
+//=================
+//      例子
+//=================
 
-#import "FFDifferentWidthTagVC.h"//不同宽度的标签
-#import "FFSnowflakesFallingVC.h"//雪花飘落效果控制器
-#import "FFRegulationExpressDemoVC.h"//正则表达式demo控制器
-#import "FFCircleScrollPhotoVC.h" //无限滚动轮播图控制器
+#import "FFDifferentWidthTagVC.h"               //不同宽度的标签
+#import "FFSnowflakesFallingVC.h"               //雪花飘落效果控制器
+#import "FFRegulationExpressDemoVC.h"           //正则表达式demo控制器
+#import "FFCircleScrollPhotoVC.h"               //无限滚动轮播图控制器
 #import "FFUIWindowUsage_ClickStatusBarScrollToTopVC.h" //点击状态栏、scrollView自动滚动到顶部
 
-//------------------
-//    AVFoundation
-//------------------
-#import "FFVoicePlayTextController.h"//语音播放文字内容
+//=================
+//   AVFoundation
+//=================
+#import "FFVoicePlayTextController.h"           //语音播放文字内容
 
 
 
-//------------------
+//=================
 //  FFDropDownMenu
-//------------------
-#import "FFDropDownMenuBaseUsageVC.h"//FFDropDownMenu基本用法控制器
-#import "FFDropDownMenuCustomXibCellVC.h" //自定义菜单cell (xib类型) 控制器
-#import "FFDropDownMenuCustomCellVC.h" //自定义菜单cell (非xib类型) 控制器
-#import "FFDropDownCustomMenuStyle1VC.h" // 实战----自定义菜单样式1
+//=================
+#import "FFDropDownMenuBaseUsageVC.h"           //FFDropDownMenu基本用法控制器
+#import "FFDropDownMenuCustomXibCellVC.h"       //自定义菜单cell (xib类型) 控制器
+#import "FFDropDownMenuCustomCellVC.h"          //自定义菜单cell (非xib类型) 控制器
+#import "FFDropDownCustomMenuStyle1VC.h"        // 实战----自定义菜单样式1
 
+
+//=================
+//  CoreBluetooth
+//=================
+#import "FFCentralManagerModeController.h"      //CoreBlueTooth 中心模式的基本用法
+#import "FFPeripheralManagerModeController.h"   //CoreBlueTooth 外设模式的基本用法
+#import "FFCoreBluetoothChatController.h"       //聊天(CoreBluetooth实战1)
 
 
 //model
@@ -52,8 +59,12 @@
 
 @implementation FFMainViewController
 
-/***********************************生命周期***********************************/
+
+//=================================================================
+//                           生命周期
+//=================================================================
 #pragma mark - 生命周期
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -61,7 +72,9 @@
     
 }
 
-/***********************************初始化***********************************/
+//=================================================================
+//                              初始化
+//=================================================================
 #pragma mark - 初始化
 
 static NSString *const FFExampleCellID = @"FFExampleCell";
@@ -75,14 +88,19 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
     FFRegisterCell(self.tableView, FFExampleCell, FFExampleCellID);
 }
 
-/***********************************懒加载***********************************/
+//=================================================================
+//                           懒加载
+//=================================================================
 #pragma mark - 懒加载
 
 
 - (NSArray *)dataSourceArr {
     
     if (_dataSourceArr == nil) {
-        /**************************小例子**************************/
+        
+        //=================
+        //      小例子
+        //=================
         
         //example_001(不同宽度的标签)
         FFExampleModel *model1 = [FFExampleModel exampleModelWithExampleName:@"不同宽度的标签" exampleImageName:@"" correspondClassName:@"FFDifferentWidthTagVC"];
@@ -111,7 +129,9 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
                                ];
         
         
-        /**************************AVFoundation******************/
+        //=================
+        //   AVFoundation
+        //=================
         
         FFExampleModel *afModel1 = [FFExampleModel exampleModelWithExampleName:@"语音播放文字内容" exampleImageName:@"" correspondClassName:@"FFVoicePlayTextController"];
         
@@ -121,7 +141,9 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
         
         
         
-        /***********************FFDropDownMenu******************/
+        //==================
+        //   FFDropDownMenu
+        //==================
         
         FFExampleModel *menuModel1 = [FFExampleModel exampleModelWithExampleName:@"教程----下拉菜单的基本使用" exampleImageName:@"" correspondClassName:@"FFDropDownMenuBaseUsageVC"];
         
@@ -140,20 +162,45 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
                              ];
         
         
-        //----------------
-        //----------------
+        //==================
+        //   CoreBluetooth
+        //==================
+        
+        FFExampleModel *coreBluetoothModel1 = [FFExampleModel exampleModelWithExampleName:@"中心模式教程(CBCentralManager)" exampleImageName:@"" correspondClassName:@"FFPeripheralManagerModeController"];
+        
+        
+        FFExampleModel *coreBluetoothModel2 = [FFExampleModel exampleModelWithExampleName:@"外设模式教程(CBPeripheralManager)" exampleImageName:@"" correspondClassName:@"FFPeripheralManagerModeController"];
+        
+        
+        FFExampleModel *coreBluetoothModel3 = [FFExampleModel exampleModelWithExampleName:@"聊天(CoreBluetooth实战1)" exampleImageName:@"" correspondClassName:@"FFCoreBluetoothChatController"];
+        
+        NSArray *coreBluetoothArray = @[
+                                        coreBluetoothModel1,
+                                        coreBluetoothModel2,
+                                        coreBluetoothModel3
+                                        ];
+        
+        
+        
+        //=================
+        //    数据源数组
+        //=================
         _dataSourceArr = @[
                            exampleArr,
                            avFoundationArr,
-                           menuArr
+                           menuArr,
+                           coreBluetoothArray
                            ];
         
     }
     return _dataSourceArr;
 }
 
-/***********************************UITableViewDataSource***********************************/
+//=================================================================
+//                       UITableViewDataSource
+//=================================================================
 #pragma mark - UITableViewDataSource
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return self.dataSourceArr.count;
 }
@@ -171,10 +218,17 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
 }
 
 
-/***********************************UITableViewDelegate***********************************/
+//=================================================================
+//                       UITableViewDelegate
+//=================================================================
 #pragma mark - UITableViewDelegate
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.section == 0) { //例子
+    
+    //=================
+    //        例子
+    //=================
+    if (indexPath.section == 0) {
         switch (indexPath.row) {
             case 0: //不同宽度的标签
             {
@@ -216,7 +270,10 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
     }
     
     
-    else if (indexPath.section == 1) {//AVFoundation
+    //=================
+    //   AVFoundation
+    //=================
+    else if (indexPath.section == 1) {
         switch (indexPath.row) {
             case 0: //语音播放文字内容
             {
@@ -230,7 +287,10 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
         
     }
     
-    else if (indexPath.section == 2) {//FFDropDownMenu下拉菜单的使用
+    //==============================
+    //   FFDropDownMenu下拉菜单的使用
+    //==============================
+    else if (indexPath.section == 2) {
         switch (indexPath.row) {
             case 0: //FFDropDownMenu基本用法
             {
@@ -252,15 +312,40 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
                 [self.navigationController pushViewController:vc animated:YES];
                 break;
             }
-            case 3: //FFDropDownMenu自定义菜单cell(非xib)
+            case 3: //实战----自定义菜单样式1
             {
                 FFDropDownCustomMenuStyle1VC *vc = [FFDropDownCustomMenuStyle1VC new];
                 [self.navigationController pushViewController:vc animated:YES];
                 break;
             }
-                
-                
-                
+            default:
+                break;
+        }
+    }
+    
+    //=================
+    //  CoreBluetooth
+    //=================
+    else if (indexPath.section == 3) {
+        switch (indexPath.row) {
+            case 0: //中心模式
+            {
+                FFCentralManagerModeController *vc = [FFCentralManagerModeController new];
+                [self.navigationController pushViewController:vc animated:YES];
+                break;
+            }
+            case 1: //外设模式
+            {
+                FFPeripheralManagerModeController *vc = [FFPeripheralManagerModeController new];
+                [self.navigationController pushViewController:vc animated:YES];
+                break;
+            }
+            case 2: //聊天(CoreBluetooth实战1)
+            {
+                FFCoreBluetoothChatController *vc = [FFCoreBluetoothChatController new];
+                [self.navigationController pushViewController:vc animated:YES];
+                break;
+            }
                 
             default:
                 break;
@@ -285,6 +370,10 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
     
     else if (section == 2) {
         headerView.title = @"FFDropDownMenu下拉菜单的使用";
+    }
+    
+    else if (section == 3) {
+        headerView.title = @"CoreBluetooth";
     }
     
     return headerView;

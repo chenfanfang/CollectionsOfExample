@@ -11,6 +11,8 @@
 //model
 #import "FFDropDownCustomMenuStyle1Model.h"
 
+#import <CoreBluetooth/CoreBluetooth.h>
+
 @interface FFDropDownCustomMenuStyle1Cell ()
 
 @property (weak, nonatomic) IBOutlet UILabel *mainTitle_Label;

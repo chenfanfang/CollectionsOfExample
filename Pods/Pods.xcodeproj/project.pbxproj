@@ -7,27 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0259DC28F9B3CD4A33A4F5B3898754A4 /* FFDropDownMenuModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F1A3B2056776DADB5EB9F873AF7CE8 /* FFDropDownMenuModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09A7982D9F1CDE5E69E58FCD89E01DE8 /* FFDropDownMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BE52B01EFEFFAB13AEB54164659FBA /* FFDropDownMenuView.m */; };
-		30C88752774B026003FEB780C070B1B5 /* FFDropDownMenuBasedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7BFA8BA32332CE08FF486B65D22FE7 /* FFDropDownMenuBasedCell.m */; };
-		310767F08500CDF99A3F73E3C57700A6 /* FFDropDownMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C143DAEDB428CA52245089FF6E35B8 /* FFDropDownMenuModel.m */; };
-		4796670513563D842E94876D35A66743 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		553F072373A9C516825AE21E5C9FF21B /* FFDropDownMenuBasedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAA8A56D74FDDF931200EA138864C54 /* FFDropDownMenuBasedModel.m */; };
-		5EE5C2B97830B0C68A367041DCD94FEE /* FFDropDownMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC79F2F6237C293C1DB7AD4F58FAA70 /* FFDropDownMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70C48F2968A2A2ABE93C440E00F6887B /* FFDropDownMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F4AD1077B00030DBE73E1634C99E1 /* FFDropDownMenuCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7225BB30E584CE456CEA57C310486464 /* FFDropDownMenuBasedModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5C19EC8B381ACB711725A09E411865 /* FFDropDownMenuBasedModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D92F67A0A921E86C80644D893D078B6 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		8B67C39588AF89CC96FB567509B2A91F /* FFDropDownMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FFDCF00945E41CC27E2308F4BCBD26 /* FFDropDownMenuCell.m */; };
-		91B8F9E53B302CA6F921027D512984B0 /* FFDropDownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B810935ADC6E0BF57E9D0D39526FB397 /* FFDropDownMenu-dummy.m */; };
-		ACEA742A0792D009BEC957FAAEE587CF /* FFDropDownMenuBasedCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 935B76B0B18D8A17C82E1797B67C0233 /* FFDropDownMenuBasedCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2E3C2EAB78E67E42C066DB2DDCC5960 /* FFDropDownMenuTriangleView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4F6EDDF0D9D69DB7C496693A8D765D /* FFDropDownMenuTriangleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF6C5038DC94BE43DABEAEB6BAD6C9E4 /* FFDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D059D7D923C01409F98AADFDD98B20 /* FFDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4FFFE28220B6EA41DC76D0CE6AB855B /* FFDropDownMenuTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D30B4C8FF091172E747BE673F6245ED /* FFDropDownMenuTriangleView.m */; };
+		0259DC28F9B3CD4A33A4F5B3898754A4 /* FFDropDownMenuModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B92F9D733318773856D6A35623EAB83E /* FFDropDownMenuModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09A7982D9F1CDE5E69E58FCD89E01DE8 /* FFDropDownMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3F1E60A4B768A0EFABDD3F7A121BAC /* FFDropDownMenuView.m */; };
+		0BBD1920AE5E5ABA5CA5AEB1654C0476 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		2BF448CEB84D8183992823D0D7C4FEA2 /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B72C71414F9B5AE1ABCD08EEF0B71C /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C88752774B026003FEB780C070B1B5 /* FFDropDownMenuBasedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F7A7E0B6A4DEF2A1F7FD47ACD1D6D /* FFDropDownMenuBasedCell.m */; };
+		310767F08500CDF99A3F73E3C57700A6 /* FFDropDownMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 508D04F05129565AAB95C56101C07D5D /* FFDropDownMenuModel.m */; };
+		553F072373A9C516825AE21E5C9FF21B /* FFDropDownMenuBasedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B15BF37E1979D6809CBB0B6A56DB6BF /* FFDropDownMenuBasedModel.m */; };
+		5B340DFE1C654D9FE8E7B1EB3E3F74FB /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 470347EBE7AF3DC5D23B0FEAFFFDD29A /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EE5C2B97830B0C68A367041DCD94FEE /* FFDropDownMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2758704AD75DC064CDE016A66C4ECF /* FFDropDownMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70C48F2968A2A2ABE93C440E00F6887B /* FFDropDownMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D827B201FD94EDA017D5ACADB8F13B /* FFDropDownMenuCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7225BB30E584CE456CEA57C310486464 /* FFDropDownMenuBasedModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A9236D81611F52CC3790FCAF04769DD0 /* FFDropDownMenuBasedModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		896BEA35BE8C2C00B29CC0D32084726E /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FA7F48CE3DED6C1B52790E1DF0DCF9 /* UITableView+FDIndexPathHeightCache.m */; };
+		8B67C39588AF89CC96FB567509B2A91F /* FFDropDownMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE380BE82C8401EA32A6EC3B04F18BA7 /* FFDropDownMenuCell.m */; };
+		8D025B08A7E389753F83E2C88FB967E6 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 809B965DCD8CA5D2D35054FC54B75ADA /* UITableView+FDTemplateLayoutCell-dummy.m */; };
+		91B8F9E53B302CA6F921027D512984B0 /* FFDropDownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE65240FBDE3764D11E03B1887B1651 /* FFDropDownMenu-dummy.m */; };
+		9323067B131E52BA32F90BE02590790D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9B4712A1045B45F2B3D24DB454281462 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DDB7D0ED433AAB5A3B60C49795E108 /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		ACEA742A0792D009BEC957FAAEE587CF /* FFDropDownMenuBasedCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B24132F4CB4E5BDFD6323F70F2A4ECBE /* FFDropDownMenuBasedCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6E033681F74FFAA051AAB5CE0B83A8F /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA474A902051A7FB1D7CFF375F655C /* UITableView+FDKeyedHeightCache.m */; };
+		DDC6069CC05AA3247F263DB017C9AD30 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA057E97C6B135809B36349C7083876 /* UITableView+FDTemplateLayoutCell.m */; };
+		DDE9EEDDC9410808FE3E473C3D8CB3F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		E2E3C2EAB78E67E42C066DB2DDCC5960 /* FFDropDownMenuTriangleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FAE170C49494F5AA0EBF6ABB19C0BC /* FFDropDownMenuTriangleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF6C5038DC94BE43DABEAEB6BAD6C9E4 /* FFDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE5964FD1556AA1D45B8FD4E15AE2AA /* FFDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F10CAF90649E534DDD92465359F7B1CA /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D194B520DC87E570FFEB62171E7B96 /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4FFFE28220B6EA41DC76D0CE6AB855B /* FFDropDownMenuTriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 869BF46C137DF559DA078A1A435D36A9 /* FFDropDownMenuTriangleView.m */; };
 		F798D0CD60AE68C58E7AE8AEA2431503 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		FED0D1F329A8FF5749D717AAD37A45A2 /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D55598B4F09AA4CCD5FD468AE83AE22 /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6B832C058BA32FB9FEAADF65D20F0B22 /* PBXContainerItemProxy */ = {
+		3DFDE3DD2A20C2C2AD688D0D02698A40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0583E02FDCDC25FAB73A115B0B847060;
+			remoteInfo = "UITableView+FDTemplateLayoutCell";
+		};
+		AE8ACF22DD47FF1FF4830ECEC534B997 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -37,41 +54,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A8AC78E875C1C6E1A92985DC37BCD38 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		130F4AD1077B00030DBE73E1634C99E1 /* FFDropDownMenuCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenuCell.h; path = FFDropDownMenu/FFDropDownMenuCell.h; sourceTree = "<group>"; };
-		1B5C19EC8B381ACB711725A09E411865 /* FFDropDownMenuBasedModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenuBasedModel.h; path = FFDropDownMenu/FFDropDownMenuBasedModel.h; sourceTree = "<group>"; };
-		220CCE9137E3C37B085297C391C0EDA4 /* FFDropDownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFDropDownMenu.xcconfig; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		2AC79F2F6237C293C1DB7AD4F58FAA70 /* FFDropDownMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenuView.h; path = FFDropDownMenu/FFDropDownMenuView.h; sourceTree = "<group>"; };
-		31C143DAEDB428CA52245089FF6E35B8 /* FFDropDownMenuModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFDropDownMenuModel.m; path = FFDropDownMenu/FFDropDownMenuModel.m; sourceTree = "<group>"; };
+		2F3F1E60A4B768A0EFABDD3F7A121BAC /* FFDropDownMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFDropDownMenuView.m; path = FFDropDownMenu/FFDropDownMenuView.m; sourceTree = "<group>"; };
+		32DDB7D0ED433AAB5A3B60C49795E108 /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCellDebug.m"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		32FAE170C49494F5AA0EBF6ABB19C0BC /* FFDropDownMenuTriangleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenuTriangleView.h; path = FFDropDownMenu/FFDropDownMenuTriangleView.h; sourceTree = "<group>"; };
+		36D827B201FD94EDA017D5ACADB8F13B /* FFDropDownMenuCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenuCell.h; path = FFDropDownMenu/FFDropDownMenuCell.h; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D2758704AD75DC064CDE016A66C4ECF /* FFDropDownMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenuView.h; path = FFDropDownMenu/FFDropDownMenuView.h; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		43D059D7D923C01409F98AADFDD98B20 /* FFDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenu.h; path = FFDropDownMenu/FFDropDownMenu.h; sourceTree = "<group>"; };
-		4A7BFA8BA32332CE08FF486B65D22FE7 /* FFDropDownMenuBasedCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFDropDownMenuBasedCell.m; path = FFDropDownMenu/FFDropDownMenuBasedCell.m; sourceTree = "<group>"; };
+		44FA7F48CE3DED6C1B52790E1DF0DCF9 /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDIndexPathHeightCache.m"; path = "Classes/UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		470347EBE7AF3DC5D23B0FEAFFFDD29A /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCellDebug.h"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		496F7A7E0B6A4DEF2A1F7FD47ACD1D6D /* FFDropDownMenuBasedCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFDropDownMenuBasedCell.m; path = FFDropDownMenu/FFDropDownMenuBasedCell.m; sourceTree = "<group>"; };
+		4BA057E97C6B135809B36349C7083876 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCell.m"; path = "Classes/UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		56F869EBAE142E380AE8E25032BD26E8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		508D04F05129565AAB95C56101C07D5D /* FFDropDownMenuModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFDropDownMenuModel.m; path = FFDropDownMenu/FFDropDownMenuModel.m; sourceTree = "<group>"; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		78F1A3B2056776DADB5EB9F873AF7CE8 /* FFDropDownMenuModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenuModel.h; path = FFDropDownMenu/FFDropDownMenuModel.h; sourceTree = "<group>"; };
-		8FAA8A56D74FDDF931200EA138864C54 /* FFDropDownMenuBasedModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFDropDownMenuBasedModel.m; path = FFDropDownMenu/FFDropDownMenuBasedModel.m; sourceTree = "<group>"; };
-		935B76B0B18D8A17C82E1797B67C0233 /* FFDropDownMenuBasedCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenuBasedCell.h; path = FFDropDownMenu/FFDropDownMenuBasedCell.h; sourceTree = "<group>"; };
+		7B15BF37E1979D6809CBB0B6A56DB6BF /* FFDropDownMenuBasedModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFDropDownMenuBasedModel.m; path = FFDropDownMenu/FFDropDownMenuBasedModel.m; sourceTree = "<group>"; };
+		7D55598B4F09AA4CCD5FD468AE83AE22 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCell.h"; path = "Classes/UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		809B965DCD8CA5D2D35054FC54B75ADA /* UITableView+FDTemplateLayoutCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell-dummy.m"; sourceTree = "<group>"; };
+		8104F18B89D19A41E0A409F128D13631 /* libUITableView+FDTemplateLayoutCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUITableView+FDTemplateLayoutCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		869BF46C137DF559DA078A1A435D36A9 /* FFDropDownMenuTriangleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFDropDownMenuTriangleView.m; path = FFDropDownMenu/FFDropDownMenuTriangleView.m; sourceTree = "<group>"; };
+		878404B8469482DDEC570C03529F563B /* FFDropDownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFDropDownMenu-prefix.pch"; sourceTree = "<group>"; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		9D30B4C8FF091172E747BE673F6245ED /* FFDropDownMenuTriangleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFDropDownMenuTriangleView.m; path = FFDropDownMenu/FFDropDownMenuTriangleView.m; sourceTree = "<group>"; };
+		99340200EB34344ECC24A715C2E3A988 /* libFFDropDownMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFFDropDownMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A9FFDCF00945E41CC27E2308F4BCBD26 /* FFDropDownMenuCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFDropDownMenuCell.m; path = FFDropDownMenu/FFDropDownMenuCell.m; sourceTree = "<group>"; };
-		AD4F6EDDF0D9D69DB7C496693A8D765D /* FFDropDownMenuTriangleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenuTriangleView.h; path = FFDropDownMenu/FFDropDownMenuTriangleView.h; sourceTree = "<group>"; };
-		B810935ADC6E0BF57E9D0D39526FB397 /* FFDropDownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFDropDownMenu-dummy.m"; sourceTree = "<group>"; };
+		A9236D81611F52CC3790FCAF04769DD0 /* FFDropDownMenuBasedModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenuBasedModel.h; path = FFDropDownMenu/FFDropDownMenuBasedModel.h; sourceTree = "<group>"; };
+		AE380BE82C8401EA32A6EC3B04F18BA7 /* FFDropDownMenuCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFDropDownMenuCell.m; path = FFDropDownMenu/FFDropDownMenuCell.m; sourceTree = "<group>"; };
+		B24132F4CB4E5BDFD6323F70F2A4ECBE /* FFDropDownMenuBasedCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenuBasedCell.h; path = FFDropDownMenu/FFDropDownMenuBasedCell.h; sourceTree = "<group>"; };
+		B3EA474A902051A7FB1D7CFF375F655C /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDKeyedHeightCache.m"; path = "Classes/UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		B92F9D733318773856D6A35623EAB83E /* FFDropDownMenuModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenuModel.h; path = FFDropDownMenu/FFDropDownMenuModel.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C0BE52B01EFEFFAB13AEB54164659FBA /* FFDropDownMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFDropDownMenuView.m; path = FFDropDownMenu/FFDropDownMenuView.m; sourceTree = "<group>"; };
-		CD7D3EEE8FFD87FF8542C48873A72205 /* FFDropDownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFDropDownMenu-prefix.pch"; sourceTree = "<group>"; };
-		CE92386ACC9160F2D057766753D6CF96 /* libFFDropDownMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFFDropDownMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3169533BE86509AC8A97488F11DEC82 /* UITableView+FDTemplateLayoutCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITableView+FDTemplateLayoutCell.xcconfig"; sourceTree = "<group>"; };
+		D8D194B520DC87E570FFEB62171E7B96 /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDIndexPathHeightCache.h"; path = "Classes/UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		DCE65240FBDE3764D11E03B1887B1651 /* FFDropDownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFDropDownMenu-dummy.m"; sourceTree = "<group>"; };
+		EFE5964FD1556AA1D45B8FD4E15AE2AA /* FFDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFDropDownMenu.h; path = FFDropDownMenu/FFDropDownMenu.h; sourceTree = "<group>"; };
+		F1479EC7F6698C8333F3C239F7CAEFDC /* FFDropDownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFDropDownMenu.xcconfig; sourceTree = "<group>"; };
+		F9B72C71414F9B5AE1ABCD08EEF0B71C /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDKeyedHeightCache.h"; path = "Classes/UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		FABF3CF39C822ED9F53ED6FDFA6B6017 /* UITableView+FDTemplateLayoutCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BABF942C80DCC65E6ACEF9133364A5A4 /* Frameworks */ = {
+		A65DA595631A4C5FFBE9C3E39297E8E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4796670513563D842E94876D35A66743 /* Foundation.framework in Frameworks */,
+				DDE9EEDDC9410808FE3E473C3D8CB3F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5DB13E9036391507ABCEA4D8DC0FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9323067B131E52BA32F90BE02590790D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,15 +131,46 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0BB99D7159A75E712B4F9AA0596440F2 /* Support Files */ = {
+		073E1D2BEC4A4E0C16A4B5E03A830CED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				220CCE9137E3C37B085297C391C0EDA4 /* FFDropDownMenu.xcconfig */,
-				B810935ADC6E0BF57E9D0D39526FB397 /* FFDropDownMenu-dummy.m */,
-				CD7D3EEE8FFD87FF8542C48873A72205 /* FFDropDownMenu-prefix.pch */,
+				99340200EB34344ECC24A715C2E3A988 /* libFFDropDownMenu.a */,
+				0A8AC78E875C1C6E1A92985DC37BCD38 /* libPods.a */,
+				8104F18B89D19A41E0A409F128D13631 /* libUITableView+FDTemplateLayoutCell.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538853C2C7F77FDEBF8A8CB9DA8B90D1 /* FFDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EFE5964FD1556AA1D45B8FD4E15AE2AA /* FFDropDownMenu.h */,
+				B24132F4CB4E5BDFD6323F70F2A4ECBE /* FFDropDownMenuBasedCell.h */,
+				496F7A7E0B6A4DEF2A1F7FD47ACD1D6D /* FFDropDownMenuBasedCell.m */,
+				A9236D81611F52CC3790FCAF04769DD0 /* FFDropDownMenuBasedModel.h */,
+				7B15BF37E1979D6809CBB0B6A56DB6BF /* FFDropDownMenuBasedModel.m */,
+				36D827B201FD94EDA017D5ACADB8F13B /* FFDropDownMenuCell.h */,
+				AE380BE82C8401EA32A6EC3B04F18BA7 /* FFDropDownMenuCell.m */,
+				B92F9D733318773856D6A35623EAB83E /* FFDropDownMenuModel.h */,
+				508D04F05129565AAB95C56101C07D5D /* FFDropDownMenuModel.m */,
+				32FAE170C49494F5AA0EBF6ABB19C0BC /* FFDropDownMenuTriangleView.h */,
+				869BF46C137DF559DA078A1A435D36A9 /* FFDropDownMenuTriangleView.m */,
+				3D2758704AD75DC064CDE016A66C4ECF /* FFDropDownMenuView.h */,
+				2F3F1E60A4B768A0EFABDD3F7A121BAC /* FFDropDownMenuView.m */,
+				B62551687D01435D44E67458E89D94DC /* Support Files */,
+			);
+			path = FFDropDownMenu;
+			sourceTree = "<group>";
+		};
+		63FAEF498A20218DB9F24EF1D9D56B5A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3169533BE86509AC8A97488F11DEC82 /* UITableView+FDTemplateLayoutCell.xcconfig */,
+				809B965DCD8CA5D2D35054FC54B75ADA /* UITableView+FDTemplateLayoutCell-dummy.m */,
+				FABF3CF39C822ED9F53ED6FDFA6B6017 /* UITableView+FDTemplateLayoutCell-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FFDropDownMenu";
+			path = "../Target Support Files/UITableView+FDTemplateLayoutCell";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -110,39 +178,35 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B081E313CED9DF6E382B159E34C0A880 /* Pods */,
-				F561C0C8810235424480436A35894B4C /* Products */,
+				91F4DFB58ED7C25F7942B1C1B1A3753D /* Pods */,
+				073E1D2BEC4A4E0C16A4B5E03A830CED /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		91109B7C365C01F3A5BDB953A9E834AC /* FFDropDownMenu */ = {
+		91F4DFB58ED7C25F7942B1C1B1A3753D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				43D059D7D923C01409F98AADFDD98B20 /* FFDropDownMenu.h */,
-				935B76B0B18D8A17C82E1797B67C0233 /* FFDropDownMenuBasedCell.h */,
-				4A7BFA8BA32332CE08FF486B65D22FE7 /* FFDropDownMenuBasedCell.m */,
-				1B5C19EC8B381ACB711725A09E411865 /* FFDropDownMenuBasedModel.h */,
-				8FAA8A56D74FDDF931200EA138864C54 /* FFDropDownMenuBasedModel.m */,
-				130F4AD1077B00030DBE73E1634C99E1 /* FFDropDownMenuCell.h */,
-				A9FFDCF00945E41CC27E2308F4BCBD26 /* FFDropDownMenuCell.m */,
-				78F1A3B2056776DADB5EB9F873AF7CE8 /* FFDropDownMenuModel.h */,
-				31C143DAEDB428CA52245089FF6E35B8 /* FFDropDownMenuModel.m */,
-				AD4F6EDDF0D9D69DB7C496693A8D765D /* FFDropDownMenuTriangleView.h */,
-				9D30B4C8FF091172E747BE673F6245ED /* FFDropDownMenuTriangleView.m */,
-				2AC79F2F6237C293C1DB7AD4F58FAA70 /* FFDropDownMenuView.h */,
-				C0BE52B01EFEFFAB13AEB54164659FBA /* FFDropDownMenuView.m */,
-				0BB99D7159A75E712B4F9AA0596440F2 /* Support Files */,
-			);
-			path = FFDropDownMenu;
-			sourceTree = "<group>";
-		};
-		B081E313CED9DF6E382B159E34C0A880 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				91109B7C365C01F3A5BDB953A9E834AC /* FFDropDownMenu */,
+				538853C2C7F77FDEBF8A8CB9DA8B90D1 /* FFDropDownMenu */,
+				9FE7A0CBDDC84FBDB9C5A30751DAE11F /* UITableView+FDTemplateLayoutCell */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FE7A0CBDDC84FBDB9C5A30751DAE11F /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				D8D194B520DC87E570FFEB62171E7B96 /* UITableView+FDIndexPathHeightCache.h */,
+				44FA7F48CE3DED6C1B52790E1DF0DCF9 /* UITableView+FDIndexPathHeightCache.m */,
+				F9B72C71414F9B5AE1ABCD08EEF0B71C /* UITableView+FDKeyedHeightCache.h */,
+				B3EA474A902051A7FB1D7CFF375F655C /* UITableView+FDKeyedHeightCache.m */,
+				7D55598B4F09AA4CCD5FD468AE83AE22 /* UITableView+FDTemplateLayoutCell.h */,
+				4BA057E97C6B135809B36349C7083876 /* UITableView+FDTemplateLayoutCell.m */,
+				470347EBE7AF3DC5D23B0FEAFFFDD29A /* UITableView+FDTemplateLayoutCellDebug.h */,
+				32DDB7D0ED433AAB5A3B60C49795E108 /* UITableView+FDTemplateLayoutCellDebug.m */,
+				63FAEF498A20218DB9F24EF1D9D56B5A /* Support Files */,
+			);
+			path = "UITableView+FDTemplateLayoutCell";
 			sourceTree = "<group>";
 		};
 		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
@@ -160,6 +224,17 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
+		B62551687D01435D44E67458E89D94DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1479EC7F6698C8333F3C239F7CAEFDC /* FFDropDownMenu.xcconfig */,
+				DCE65240FBDE3764D11E03B1887B1651 /* FFDropDownMenu-dummy.m */,
+				878404B8469482DDEC570C03529F563B /* FFDropDownMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FFDropDownMenu";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,15 +249,6 @@
 				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		F561C0C8810235424480436A35894B4C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE92386ACC9160F2D057766753D6CF96 /* libFFDropDownMenu.a */,
-				56F869EBAE142E380AE8E25032BD26E8 /* libPods.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +268,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A1AC51FFEEC5B3BD967EA62A5FC5753 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10CAF90649E534DDD92465359F7B1CA /* UITableView+FDIndexPathHeightCache.h in Headers */,
+				2BF448CEB84D8183992823D0D7C4FEA2 /* UITableView+FDKeyedHeightCache.h in Headers */,
+				FED0D1F329A8FF5749D717AAD37A45A2 /* UITableView+FDTemplateLayoutCell.h in Headers */,
+				5B340DFE1C654D9FE8E7B1EB3E3F74FB /* UITableView+FDTemplateLayoutCellDebug.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0583E02FDCDC25FAB73A115B0B847060 /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D517D64D848B9BEA31AD833C5A387D64 /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */;
+			buildPhases = (
+				A61F87271EE5FEBBE191F5390B863A2E /* Sources */,
+				AD5DB13E9036391507ABCEA4D8DC0FD5 /* Frameworks */,
+				9A1AC51FFEEC5B3BD967EA62A5FC5753 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableView+FDTemplateLayoutCell";
+			productName = "UITableView+FDTemplateLayoutCell";
+			productReference = 8104F18B89D19A41E0A409F128D13631 /* libUITableView+FDTemplateLayoutCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		3A677B69A4FFCBB127EA715D22CA30ED /* FFDropDownMenu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F0EF43D17DA85133AF976D905619B63 /* Build configuration list for PBXNativeTarget "FFDropDownMenu" */;
@@ -219,24 +313,25 @@
 			);
 			name = FFDropDownMenu;
 			productName = FFDropDownMenu;
-			productReference = CE92386ACC9160F2D057766753D6CF96 /* libFFDropDownMenu.a */;
+			productReference = 99340200EB34344ECC24A715C2E3A988 /* libFFDropDownMenu.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6355473FA4BDBDD64CA9DCE6FA84C8FC /* Pods */ = {
+		D4666A93190302E2AA4B77ECA9E7D9CC /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14FCA9ECF251AF2CB42A33808BB515F1 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = DD481A62F773A1856E84AB49DE12928D /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				79A888373AA29AA36F783AFDF42A43C4 /* Sources */,
-				BABF942C80DCC65E6ACEF9133364A5A4 /* Frameworks */,
+				736FC5BFE035120F553FCE377F4EB6BB /* Sources */,
+				A65DA595631A4C5FFBE9C3E39297E8E7 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B2936C631028C2E1EA0E7C401A4563BC /* PBXTargetDependency */,
+				B7C394734E237D71348DE06BC5F8BA1E /* PBXTargetDependency */,
+				A7FFCDD04E69D869481F6C40F9DCFC9A /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = 56F869EBAE142E380AE8E25032BD26E8 /* libPods.a */;
+			productReference = 0A8AC78E875C1C6E1A92985DC37BCD38 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -256,22 +351,35 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F561C0C8810235424480436A35894B4C /* Products */;
+			productRefGroup = 073E1D2BEC4A4E0C16A4B5E03A830CED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3A677B69A4FFCBB127EA715D22CA30ED /* FFDropDownMenu */,
-				6355473FA4BDBDD64CA9DCE6FA84C8FC /* Pods */,
+				D4666A93190302E2AA4B77ECA9E7D9CC /* Pods */,
+				0583E02FDCDC25FAB73A115B0B847060 /* UITableView+FDTemplateLayoutCell */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		79A888373AA29AA36F783AFDF42A43C4 /* Sources */ = {
+		736FC5BFE035120F553FCE377F4EB6BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D92F67A0A921E86C80644D893D078B6 /* Pods-dummy.m in Sources */,
+				0BBD1920AE5E5ABA5CA5AEB1654C0476 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61F87271EE5FEBBE191F5390B863A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896BEA35BE8C2C00B29CC0D32084726E /* UITableView+FDIndexPathHeightCache.m in Sources */,
+				B6E033681F74FFAA051AAB5CE0B83A8F /* UITableView+FDKeyedHeightCache.m in Sources */,
+				8D025B08A7E389753F83E2C88FB967E6 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */,
+				DDC6069CC05AA3247F263DB017C9AD30 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				9B4712A1045B45F2B3D24DB454281462 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,11 +400,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B2936C631028C2E1EA0E7C401A4563BC /* PBXTargetDependency */ = {
+		A7FFCDD04E69D869481F6C40F9DCFC9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITableView+FDTemplateLayoutCell";
+			target = 0583E02FDCDC25FAB73A115B0B847060 /* UITableView+FDTemplateLayoutCell */;
+			targetProxy = 3DFDE3DD2A20C2C2AD688D0D02698A40 /* PBXContainerItemProxy */;
+		};
+		B7C394734E237D71348DE06BC5F8BA1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FFDropDownMenu;
 			target = 3A677B69A4FFCBB127EA715D22CA30ED /* FFDropDownMenu */;
-			targetProxy = 6B832C058BA32FB9FEAADF65D20F0B22 /* PBXContainerItemProxy */;
+			targetProxy = AE8ACF22DD47FF1FF4830ECEC534B997 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -335,14 +449,14 @@
 			};
 			name = Release;
 		};
-		258E0CE54AA22D50ACD05D6FAB410DA2 /* Debug */ = {
+		1B639A466227743305B020166C5179CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -350,14 +464,50 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		5C7D492D5BCF26C009EAE5BD7BC02D94 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 220CCE9137E3C37B085297C391C0EDA4 /* FFDropDownMenu.xcconfig */;
+			baseConfigurationReference = F1479EC7F6698C8333F3C239F7CAEFDC /* FFDropDownMenu.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FFDropDownMenu/FFDropDownMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		633FD5DA43144604D7598C1618CCCF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3169533BE86509AC8A97488F11DEC82 /* UITableView+FDTemplateLayoutCell.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A3E5C65C71D1287679742E2EE77CBE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3169533BE86509AC8A97488F11DEC82 /* UITableView+FDTemplateLayoutCell.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -411,7 +561,7 @@
 		};
 		C6A2E43703EC1E35D1FD8C563C9B1D06 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 220CCE9137E3C37B085297C391C0EDA4 /* FFDropDownMenu.xcconfig */;
+			baseConfigurationReference = F1479EC7F6698C8333F3C239F7CAEFDC /* FFDropDownMenu.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FFDropDownMenu/FFDropDownMenu-prefix.pch";
@@ -427,14 +577,14 @@
 			};
 			name = Release;
 		};
-		EAFCEF88575CA93C3BFF2CE78E5E1216 /* Release */ = {
+		D0EF9E9DB07B5B9A8DB3BD34A6244EB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -442,20 +592,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14FCA9ECF251AF2CB42A33808BB515F1 /* Build configuration list for PBXNativeTarget "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				258E0CE54AA22D50ACD05D6FAB410DA2 /* Debug */,
-				EAFCEF88575CA93C3BFF2CE78E5E1216 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -470,6 +611,24 @@
 			buildConfigurations = (
 				5C7D492D5BCF26C009EAE5BD7BC02D94 /* Debug */,
 				C6A2E43703EC1E35D1FD8C563C9B1D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D517D64D848B9BEA31AD833C5A387D64 /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E5C65C71D1287679742E2EE77CBE8E /* Debug */,
+				633FD5DA43144604D7598C1618CCCF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD481A62F773A1856E84AB49DE12928D /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EF9E9DB07B5B9A8DB3BD34A6244EB4 /* Debug */,
+				1B639A466227743305B020166C5179CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

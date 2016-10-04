@@ -34,7 +34,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+
     [self setup];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    NSString *className = NSStringFromClass([self class]);
+    NSLog(@"%@ will appear", className);
 }
 
 /***********************************初始化***********************************/

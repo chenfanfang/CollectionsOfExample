@@ -25,10 +25,25 @@
 		040A75C61D3BD56700F728A9 /* FFTableSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75C51D3BD56700F728A9 /* FFTableSectionHeaderView.m */; };
 		040A75C91D3BDD2600F728A9 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75C81D3BDD2600F728A9 /* NSString+Extension.m */; };
 		040A75CC1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040A75CB1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m */; };
+		0415EFD11D9F6CD200D84D94 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415EFD01D9F6CD200D84D94 /* UIViewController+Swizzling.m */; };
 		04316E251D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04316E241D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.m */; };
 		04316E281D4DE49C00AE6392 /* FFCircleScrollPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04316E271D4DE49C00AE6392 /* FFCircleScrollPhotoView.m */; };
 		04316E311D4DF02900AE6392 /* FFCircleScrollPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04316E2F1D4DF02900AE6392 /* FFCircleScrollPhotoCell.m */; };
 		04316E321D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04316E301D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib */; };
+		043FD04D1D8E7F43000FB768 /* FFPeripheralManagerModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043FD04B1D8E7F43000FB768 /* FFPeripheralManagerModeController.m */; };
+		043FD0511D8E7F77000FB768 /* FFCentralManagerModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043FD0501D8E7F77000FB768 /* FFCentralManagerModeController.m */; };
+		043FD05A1D8E8498000FB768 /* FFCoreBluetoothChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043FD0581D8E8498000FB768 /* FFCoreBluetoothChatController.m */; };
+		043FD05B1D8E8498000FB768 /* FFCoreBluetoothChatController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043FD0591D8E8498000FB768 /* FFCoreBluetoothChatController.xib */; };
+		043FD05F1D8E8C48000FB768 /* FFCoreBluetoothChatCentralVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 043FD05D1D8E8C48000FB768 /* FFCoreBluetoothChatCentralVC.m */; };
+		043FD0601D8E8C48000FB768 /* FFCoreBluetoothChatCentralVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043FD05E1D8E8C48000FB768 /* FFCoreBluetoothChatCentralVC.xib */; };
+		043FD0631D8E8E66000FB768 /* FFCustomWithPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043FD0621D8E8E66000FB768 /* FFCustomWithPlaceHolderTextView.m */; };
+		0454A4041D8F8A44008ACE7E /* FFChatReceiveMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454A4021D8F8A44008ACE7E /* FFChatReceiveMessageCell.m */; };
+		0454A4051D8F8A44008ACE7E /* FFChatReceiveMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0454A4031D8F8A44008ACE7E /* FFChatReceiveMessageCell.xib */; };
+		0454A4091D8F8A5D008ACE7E /* FFChatSendMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454A4071D8F8A5D008ACE7E /* FFChatSendMessageCell.m */; };
+		0454A40A1D8F8A5D008ACE7E /* FFChatSendMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0454A4081D8F8A5D008ACE7E /* FFChatSendMessageCell.xib */; };
+		0454A40D1D8F8A9A008ACE7E /* FFChatMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454A40C1D8F8A9A008ACE7E /* FFChatMessageModel.m */; };
+		0454A4161D900463008ACE7E /* FFCoreBluetoothChatPeripheralVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454A4141D900463008ACE7E /* FFCoreBluetoothChatPeripheralVC.m */; };
+		0454A4171D900463008ACE7E /* FFCoreBluetoothChatPeripheralVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0454A4151D900463008ACE7E /* FFCoreBluetoothChatPeripheralVC.xib */; };
 		0456818B1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 045681891D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.m */; };
 		0456818C1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0456818A1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.xib */; };
 		047BCE561D56300700A1818D /* FFDropDownMenuBaseUsageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047BCE551D56300700A1818D /* FFDropDownMenuBaseUsageVC.xib */; };
@@ -117,6 +132,8 @@
 		040A75C81D3BDD2600F728A9 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		040A75CA1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDifferentWidthTagCell.h; sourceTree = "<group>"; };
 		040A75CB1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDifferentWidthTagCell.m; sourceTree = "<group>"; };
+		0415EFCF1D9F6CD200D84D94 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
+		0415EFD01D9F6CD200D84D94 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
 		04316E231D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCircleScrollPhotoVC.h; sourceTree = "<group>"; };
 		04316E241D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCircleScrollPhotoVC.m; sourceTree = "<group>"; };
 		04316E261D4DE49C00AE6392 /* FFCircleScrollPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCircleScrollPhotoView.h; sourceTree = "<group>"; };
@@ -124,6 +141,29 @@
 		04316E2E1D4DF02900AE6392 /* FFCircleScrollPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCircleScrollPhotoCell.h; sourceTree = "<group>"; };
 		04316E2F1D4DF02900AE6392 /* FFCircleScrollPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCircleScrollPhotoCell.m; sourceTree = "<group>"; };
 		04316E301D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFCircleScrollPhotoCell.xib; sourceTree = "<group>"; };
+		043FD04A1D8E7F43000FB768 /* FFPeripheralManagerModeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPeripheralManagerModeController.h; sourceTree = "<group>"; };
+		043FD04B1D8E7F43000FB768 /* FFPeripheralManagerModeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPeripheralManagerModeController.m; sourceTree = "<group>"; };
+		043FD04F1D8E7F77000FB768 /* FFCentralManagerModeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCentralManagerModeController.h; sourceTree = "<group>"; };
+		043FD0501D8E7F77000FB768 /* FFCentralManagerModeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCentralManagerModeController.m; sourceTree = "<group>"; };
+		043FD0571D8E8498000FB768 /* FFCoreBluetoothChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCoreBluetoothChatController.h; sourceTree = "<group>"; };
+		043FD0581D8E8498000FB768 /* FFCoreBluetoothChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCoreBluetoothChatController.m; sourceTree = "<group>"; };
+		043FD0591D8E8498000FB768 /* FFCoreBluetoothChatController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFCoreBluetoothChatController.xib; sourceTree = "<group>"; };
+		043FD05C1D8E8C48000FB768 /* FFCoreBluetoothChatCentralVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCoreBluetoothChatCentralVC.h; sourceTree = "<group>"; };
+		043FD05D1D8E8C48000FB768 /* FFCoreBluetoothChatCentralVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCoreBluetoothChatCentralVC.m; sourceTree = "<group>"; };
+		043FD05E1D8E8C48000FB768 /* FFCoreBluetoothChatCentralVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFCoreBluetoothChatCentralVC.xib; sourceTree = "<group>"; };
+		043FD0611D8E8E66000FB768 /* FFCustomWithPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCustomWithPlaceHolderTextView.h; sourceTree = "<group>"; };
+		043FD0621D8E8E66000FB768 /* FFCustomWithPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCustomWithPlaceHolderTextView.m; sourceTree = "<group>"; };
+		0454A4011D8F8A44008ACE7E /* FFChatReceiveMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFChatReceiveMessageCell.h; sourceTree = "<group>"; };
+		0454A4021D8F8A44008ACE7E /* FFChatReceiveMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFChatReceiveMessageCell.m; sourceTree = "<group>"; };
+		0454A4031D8F8A44008ACE7E /* FFChatReceiveMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFChatReceiveMessageCell.xib; sourceTree = "<group>"; };
+		0454A4061D8F8A5D008ACE7E /* FFChatSendMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFChatSendMessageCell.h; sourceTree = "<group>"; };
+		0454A4071D8F8A5D008ACE7E /* FFChatSendMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFChatSendMessageCell.m; sourceTree = "<group>"; };
+		0454A4081D8F8A5D008ACE7E /* FFChatSendMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFChatSendMessageCell.xib; sourceTree = "<group>"; };
+		0454A40B1D8F8A9A008ACE7E /* FFChatMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFChatMessageModel.h; sourceTree = "<group>"; };
+		0454A40C1D8F8A9A008ACE7E /* FFChatMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFChatMessageModel.m; sourceTree = "<group>"; };
+		0454A4131D900463008ACE7E /* FFCoreBluetoothChatPeripheralVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCoreBluetoothChatPeripheralVC.h; sourceTree = "<group>"; };
+		0454A4141D900463008ACE7E /* FFCoreBluetoothChatPeripheralVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCoreBluetoothChatPeripheralVC.m; sourceTree = "<group>"; };
+		0454A4151D900463008ACE7E /* FFCoreBluetoothChatPeripheralVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFCoreBluetoothChatPeripheralVC.xib; sourceTree = "<group>"; };
 		045681881D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDropDownMenuNextPageVC.h; sourceTree = "<group>"; };
 		045681891D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDropDownMenuNextPageVC.m; sourceTree = "<group>"; };
 		0456818A1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FFDropDownMenuNextPageVC.xib; sourceTree = "<group>"; };
@@ -215,11 +255,14 @@
 			isa = PBXGroup;
 			children = (
 				040A75641D3B959800F728A9 /* 程序入口 */,
+				040A75871D3B970800F728A9 /* Public(公共类) */,
 				040A75811D3B970800F728A9 /* Main(主界面) */,
+				043FD0441D8E7C90000FB768 /* --------------------Demo------------------------- */,
 				04B7FD261D55F103001E306E /* FFDropDownMenu */,
 				0486FF211D4CBDDC00273597 /* AVFoundation */,
 				040A757B1D3B970800F728A9 /* Example(例子) */,
-				040A75871D3B970800F728A9 /* Public(公共类) */,
+				043FD0421D8E7C60000FB768 /* CoreBluetooth(蓝牙) */,
+				043FD0451D8E7CC2000FB768 /* --------------------Demo------------------------- */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -450,6 +493,8 @@
 				040A75B21D3BA94100F728A9 /* UIView+Extension.m */,
 				040A75B41D3BA9CA00F728A9 /* UIViewController+Extension.h */,
 				040A75B51D3BA9CA00F728A9 /* UIViewController+Extension.m */,
+				0415EFCF1D9F6CD200D84D94 /* UIViewController+Swizzling.h */,
+				0415EFD01D9F6CD200D84D94 /* UIViewController+Swizzling.m */,
 				040A75C71D3BDD2600F728A9 /* NSString+Extension.h */,
 				040A75C81D3BDD2600F728A9 /* NSString+Extension.m */,
 			);
@@ -498,6 +543,122 @@
 				04316E2E1D4DF02900AE6392 /* FFCircleScrollPhotoCell.h */,
 				04316E2F1D4DF02900AE6392 /* FFCircleScrollPhotoCell.m */,
 				04316E301D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		043FD0421D8E7C60000FB768 /* CoreBluetooth(蓝牙) */ = {
+			isa = PBXGroup;
+			children = (
+				043FD0521D8E8429000FB768 /* 聊天(CorBluetooth实战1) */,
+				043FD0461D8E7EED000FB768 /* 外设模式(CBPeripheralManager) */,
+				043FD0481D8E7EED000FB768 /* 中心模式(CBCentralManager) */,
+			);
+			path = "CoreBluetooth(蓝牙)";
+			sourceTree = "<group>";
+		};
+		043FD0441D8E7C90000FB768 /* --------------------Demo------------------------- */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "--------------------Demo-------------------------";
+			sourceTree = "<group>";
+		};
+		043FD0451D8E7CC2000FB768 /* --------------------Demo------------------------- */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "--------------------Demo-------------------------";
+			sourceTree = "<group>";
+		};
+		043FD0461D8E7EED000FB768 /* 外设模式(CBPeripheralManager) */ = {
+			isa = PBXGroup;
+			children = (
+				043FD0471D8E7EED000FB768 /* Controller */,
+			);
+			path = "外设模式(CBPeripheralManager)";
+			sourceTree = "<group>";
+		};
+		043FD0471D8E7EED000FB768 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				043FD04A1D8E7F43000FB768 /* FFPeripheralManagerModeController.h */,
+				043FD04B1D8E7F43000FB768 /* FFPeripheralManagerModeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		043FD0481D8E7EED000FB768 /* 中心模式(CBCentralManager) */ = {
+			isa = PBXGroup;
+			children = (
+				043FD0491D8E7EED000FB768 /* Controller */,
+			);
+			path = "中心模式(CBCentralManager)";
+			sourceTree = "<group>";
+		};
+		043FD0491D8E7EED000FB768 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				043FD04F1D8E7F77000FB768 /* FFCentralManagerModeController.h */,
+				043FD0501D8E7F77000FB768 /* FFCentralManagerModeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		043FD0521D8E8429000FB768 /* 聊天(CorBluetooth实战1) */ = {
+			isa = PBXGroup;
+			children = (
+				043FD0531D8E8429000FB768 /* Controller */,
+				043FD0541D8E8429000FB768 /* Model */,
+				043FD0551D8E8429000FB768 /* Tools */,
+				043FD0561D8E8429000FB768 /* View */,
+			);
+			path = "聊天(CorBluetooth实战1)";
+			sourceTree = "<group>";
+		};
+		043FD0531D8E8429000FB768 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				043FD0571D8E8498000FB768 /* FFCoreBluetoothChatController.h */,
+				043FD0581D8E8498000FB768 /* FFCoreBluetoothChatController.m */,
+				043FD0591D8E8498000FB768 /* FFCoreBluetoothChatController.xib */,
+				043FD05C1D8E8C48000FB768 /* FFCoreBluetoothChatCentralVC.h */,
+				043FD05D1D8E8C48000FB768 /* FFCoreBluetoothChatCentralVC.m */,
+				043FD05E1D8E8C48000FB768 /* FFCoreBluetoothChatCentralVC.xib */,
+				0454A4131D900463008ACE7E /* FFCoreBluetoothChatPeripheralVC.h */,
+				0454A4141D900463008ACE7E /* FFCoreBluetoothChatPeripheralVC.m */,
+				0454A4151D900463008ACE7E /* FFCoreBluetoothChatPeripheralVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		043FD0541D8E8429000FB768 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0454A40B1D8F8A9A008ACE7E /* FFChatMessageModel.h */,
+				0454A40C1D8F8A9A008ACE7E /* FFChatMessageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		043FD0551D8E8429000FB768 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		043FD0561D8E8429000FB768 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043FD0611D8E8E66000FB768 /* FFCustomWithPlaceHolderTextView.h */,
+				043FD0621D8E8E66000FB768 /* FFCustomWithPlaceHolderTextView.m */,
+				0454A4011D8F8A44008ACE7E /* FFChatReceiveMessageCell.h */,
+				0454A4021D8F8A44008ACE7E /* FFChatReceiveMessageCell.m */,
+				0454A4031D8F8A44008ACE7E /* FFChatReceiveMessageCell.xib */,
+				0454A4061D8F8A5D008ACE7E /* FFChatSendMessageCell.h */,
+				0454A4071D8F8A5D008ACE7E /* FFChatSendMessageCell.m */,
+				0454A4081D8F8A5D008ACE7E /* FFChatSendMessageCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1076,17 +1237,22 @@
 			files = (
 				040A756E1D3B959800F728A9 /* Info.plist in Resources */,
 				047BCE561D56300700A1818D /* FFDropDownMenuBaseUsageVC.xib in Resources */,
+				043FD0601D8E8C48000FB768 /* FFCoreBluetoothChatCentralVC.xib in Resources */,
 				04CE41311D3B8BEB009ED3F3 /* LaunchScreen.storyboard in Resources */,
 				047BCE721D56648700A1818D /* FFDropDownMenuCustomXibCell.xib in Resources */,
+				0454A4051D8F8A44008ACE7E /* FFChatReceiveMessageCell.xib in Resources */,
 				040A75BB1D3BAA3400F728A9 /* FFExampleCell.xib in Resources */,
 				047BCE771D5676C400A1818D /* FFDropDownMenuCustomCellVC.xib in Resources */,
 				0489D8F41D5DD88000E53724 /* FFDropDownCustomMenuStyle1Cell.xib in Resources */,
+				0454A40A1D8F8A5D008ACE7E /* FFChatSendMessageCell.xib in Resources */,
 				04316E321D4DF02900AE6392 /* FFCircleScrollPhotoCell.xib in Resources */,
+				0454A4171D900463008ACE7E /* FFCoreBluetoothChatPeripheralVC.xib in Resources */,
 				0486FF6A1D4CC9D100273597 /* FFVoicePlayTextController.xib in Resources */,
 				0456818C1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.xib in Resources */,
 				0486FF7F1D4D285200273597 /* FFRegulationExpressDemoVC.xib in Resources */,
 				04AEEDF21D5DCAA70088E712 /* FFDropDownCustomMenuStyle1VC.xib in Resources */,
 				047BCE6A1D56615900A1818D /* FFDropDownMenuCustomXibCellVC.xib in Resources */,
+				043FD05B1D8E8498000FB768 /* FFCoreBluetoothChatController.xib in Resources */,
 				04EA7C8F1D59AA4D00ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.xib in Resources */,
 				04CE412E1D3B8BEB009ED3F3 /* Assets.xcassets in Resources */,
 				04CE412C1D3B8BEB009ED3F3 /* Main.storyboard in Resources */,
@@ -1163,12 +1329,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0489D8F71D5DDD8300E53724 /* FFDropDownCustomMenuStyle1Model.m in Sources */,
+				043FD05A1D8E8498000FB768 /* FFCoreBluetoothChatController.m in Sources */,
+				043FD05F1D8E8C48000FB768 /* FFCoreBluetoothChatCentralVC.m in Sources */,
 				047BCE7A1D5677FE00A1818D /* FFDropDownMenuCustomCell.m in Sources */,
+				0454A40D1D8F8A9A008ACE7E /* FFChatMessageModel.m in Sources */,
 				040A75B31D3BA94100F728A9 /* UIView+Extension.m in Sources */,
 				04EA7C921D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.m in Sources */,
+				0454A4041D8F8A44008ACE7E /* FFChatReceiveMessageCell.m in Sources */,
 				040A759D1D3BA27400F728A9 /* FFMainNavigationController.m in Sources */,
 				040A75BF1D3BD10400F728A9 /* FFDifferentWidthTagVC.m in Sources */,
 				0486FF7D1D4D27FE00273597 /* FFRegulationExpressDemoVC.m in Sources */,
+				0415EFD11D9F6CD200D84D94 /* UIViewController+Swizzling.m in Sources */,
 				047BCE6D1D56630800A1818D /* FFDropDownMenuCustomXibCellModel.m in Sources */,
 				047BCE761D5676C400A1818D /* FFDropDownMenuCustomCellVC.m in Sources */,
 				0489D8F21D5DCF0900E53724 /* FFDropDownCustomMenuStyle1Cell.m in Sources */,
@@ -1180,12 +1351,16 @@
 				0486FF681D4CC55B00273597 /* FFVoicePlayTextController.m in Sources */,
 				0456818B1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.m in Sources */,
 				040A75C61D3BD56700F728A9 /* FFTableSectionHeaderView.m in Sources */,
+				0454A4091D8F8A5D008ACE7E /* FFChatSendMessageCell.m in Sources */,
+				043FD0631D8E8E66000FB768 /* FFCustomWithPlaceHolderTextView.m in Sources */,
 				04316E251D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.m in Sources */,
 				040A758F1D3B976E00F728A9 /* FFViewController.m in Sources */,
 				04EA7C841D59A84100ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.m in Sources */,
 				040A75B61D3BA9CA00F728A9 /* UIViewController+Extension.m in Sources */,
+				0454A4161D900463008ACE7E /* FFCoreBluetoothChatPeripheralVC.m in Sources */,
 				040A75A01D3BA31400F728A9 /* FFTableViewController.m in Sources */,
 				040A75921D3B97AE00F728A9 /* FFMainViewController.m in Sources */,
+				043FD0511D8E7F77000FB768 /* FFCentralManagerModeController.m in Sources */,
 				040A75A31D3BA4C300F728A9 /* FFExampleModel.m in Sources */,
 				04EA7C8D1D59A9FC00ACB5DB /* FFUIWindowUsage_MultipleScrollView.m in Sources */,
 				040A75C91D3BDD2600F728A9 /* NSString+Extension.m in Sources */,
@@ -1198,6 +1373,7 @@
 				04B7FD2E1D55F198001E306E /* FFDropDownMenuBaseUsageVC.m in Sources */,
 				047BCE691D56615900A1818D /* FFDropDownMenuCustomXibCellVC.m in Sources */,
 				040A75BA1D3BAA3400F728A9 /* FFExampleCell.m in Sources */,
+				043FD04D1D8E7F43000FB768 /* FFPeripheralManagerModeController.m in Sources */,
 				0486FF721D4CFF8900273597 /* FFSnowflakesFallingVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
