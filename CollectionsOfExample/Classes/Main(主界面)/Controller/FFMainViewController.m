@@ -44,6 +44,12 @@
 #import "FFCoreBluetoothChatController.h"       //聊天(CoreBluetooth实战1)
 
 
+//=================
+//   Runtime
+//=================
+#import "FFRuntimeObserveController.h"
+
+
 //model
 #import "FFExampleModel.h"
 //cell
@@ -182,6 +188,17 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
         
         
         
+        //==================
+        //    Runtime
+        //==================
+        
+        FFExampleModel *runtimeModel1 = [FFExampleModel exampleModelWithExampleName:@"runtime----利用runtime监听任何方法的调用" exampleImageName:@"" correspondClassName:@"FFRuntimeObserveController"];
+        
+        NSArray *runtimeArray = @[
+                                  runtimeModel1
+                                  ];
+        
+        
         //=================
         //    数据源数组
         //=================
@@ -189,7 +206,8 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
                            exampleArr,
                            avFoundationArr,
                            menuArr,
-                           coreBluetoothArray
+                           coreBluetoothArray,
+                           runtimeArray
                            ];
         
     }
@@ -343,6 +361,21 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
             case 2: //聊天(CoreBluetooth实战1)
             {
                 FFCoreBluetoothChatController *vc = [FFCoreBluetoothChatController new];
+                [self.navigationController pushViewController:vc animated:YES];
+                break;
+            }
+                
+            default:
+                break;
+        }
+    }
+    
+    //runtime
+    else if (indexPath.section == 4) {
+        switch (indexPath.row) {
+            case 0: {//利用runtime监听任何方法的调用
+                
+                FFRuntimeObserveController *vc = [FFRuntimeObserveController new];
                 [self.navigationController pushViewController:vc animated:YES];
                 break;
             }

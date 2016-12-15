@@ -78,6 +78,11 @@
 		04EA7C8F1D59AA4D00ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EA7C8E1D59AA4D00ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.xib */; };
 		04EA7C921D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA7C911D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.m */; };
 		F27F6E267F9C59C3A2FC55C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC51EEE663470C49E2D4869 /* libPods.a */; };
+		F655F37E1DFFDFB4004C0816 /* FFRuntimeBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F655F37D1DFFDFB4004C0816 /* FFRuntimeBaseController.m */; };
+		F655F3811DFFDFD8004C0816 /* FFRuntimeObserveController.m in Sources */ = {isa = PBXBuildFile; fileRef = F655F3801DFFDFD8004C0816 /* FFRuntimeObserveController.m */; };
+		F655F3841DFFE05C004C0816 /* FFProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F655F3831DFFE05C004C0816 /* FFProgressView.m */; };
+		F68F96C31E02363C00B282A2 /* FFCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F68F96C21E02363C00B282A2 /* FFCustomView.m */; };
+		F68F96C71E023AEC00B282A2 /* UIView+FFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F68F96C61E023AEC00B282A2 /* UIView+FFExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,6 +228,16 @@
 		74B8ED3395C6438A60DCC988 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9DC51EEE663470C49E2D4869 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0D7168465AB91D45A6862F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F655F37C1DFFDFB4004C0816 /* FFRuntimeBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRuntimeBaseController.h; sourceTree = "<group>"; };
+		F655F37D1DFFDFB4004C0816 /* FFRuntimeBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRuntimeBaseController.m; sourceTree = "<group>"; };
+		F655F37F1DFFDFD8004C0816 /* FFRuntimeObserveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRuntimeObserveController.h; sourceTree = "<group>"; };
+		F655F3801DFFDFD8004C0816 /* FFRuntimeObserveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRuntimeObserveController.m; sourceTree = "<group>"; };
+		F655F3821DFFE05C004C0816 /* FFProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFProgressView.h; sourceTree = "<group>"; };
+		F655F3831DFFE05C004C0816 /* FFProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFProgressView.m; sourceTree = "<group>"; };
+		F68F96C11E02363C00B282A2 /* FFCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCustomView.h; sourceTree = "<group>"; };
+		F68F96C21E02363C00B282A2 /* FFCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCustomView.m; sourceTree = "<group>"; };
+		F68F96C51E023AEC00B282A2 /* UIView+FFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FFExtension.h"; sourceTree = "<group>"; };
+		F68F96C61E023AEC00B282A2 /* UIView+FFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FFExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +277,7 @@
 				0486FF211D4CBDDC00273597 /* AVFoundation */,
 				040A757B1D3B970800F728A9 /* Example(例子) */,
 				043FD0421D8E7C60000FB768 /* CoreBluetooth(蓝牙) */,
+				F655F3771DFFDF24004C0816 /* Runtime */,
 				043FD0451D8E7CC2000FB768 /* --------------------Demo------------------------- */,
 			);
 			path = Classes;
@@ -1128,6 +1144,63 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F655F3771DFFDF24004C0816 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				F655F3781DFFDF57004C0816 /* 001_runtime监听 */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		F655F3781DFFDF57004C0816 /* 001_runtime监听 */ = {
+			isa = PBXGroup;
+			children = (
+				F655F3791DFFDF57004C0816 /* Controller */,
+				F655F37A1DFFDF57004C0816 /* Model */,
+				F655F37B1DFFDF57004C0816 /* View */,
+				F68F96C41E023A9C00B282A2 /* Category */,
+			);
+			path = "001_runtime监听";
+			sourceTree = "<group>";
+		};
+		F655F3791DFFDF57004C0816 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F655F37C1DFFDFB4004C0816 /* FFRuntimeBaseController.h */,
+				F655F37D1DFFDFB4004C0816 /* FFRuntimeBaseController.m */,
+				F655F37F1DFFDFD8004C0816 /* FFRuntimeObserveController.h */,
+				F655F3801DFFDFD8004C0816 /* FFRuntimeObserveController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F655F37A1DFFDF57004C0816 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F655F37B1DFFDF57004C0816 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F655F3821DFFE05C004C0816 /* FFProgressView.h */,
+				F655F3831DFFE05C004C0816 /* FFProgressView.m */,
+				F68F96C11E02363C00B282A2 /* FFCustomView.h */,
+				F68F96C21E02363C00B282A2 /* FFCustomView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F68F96C41E023A9C00B282A2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F68F96C51E023AEC00B282A2 /* UIView+FFExtension.h */,
+				F68F96C61E023AEC00B282A2 /* UIView+FFExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1335,6 +1408,7 @@
 				0454A40D1D8F8A9A008ACE7E /* FFChatMessageModel.m in Sources */,
 				040A75B31D3BA94100F728A9 /* UIView+Extension.m in Sources */,
 				04EA7C921D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.m in Sources */,
+				F655F3841DFFE05C004C0816 /* FFProgressView.m in Sources */,
 				0454A4041D8F8A44008ACE7E /* FFChatReceiveMessageCell.m in Sources */,
 				040A759D1D3BA27400F728A9 /* FFMainNavigationController.m in Sources */,
 				040A75BF1D3BD10400F728A9 /* FFDifferentWidthTagVC.m in Sources */,
@@ -1345,6 +1419,7 @@
 				0489D8F21D5DCF0900E53724 /* FFDropDownCustomMenuStyle1Cell.m in Sources */,
 				040A75CC1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m in Sources */,
 				04AEEDF01D5DCA810088E712 /* FFDropDownCustomMenuStyle1VC.m in Sources */,
+				F68F96C31E02363C00B282A2 /* FFCustomView.m in Sources */,
 				0486FF751D4D000800273597 /* FFSnowflakesFallingView.m in Sources */,
 				04316E281D4DE49C00AE6392 /* FFCircleScrollPhotoView.m in Sources */,
 				040A75C31D3BD35300F728A9 /* FFDifferentWidthTagModel.m in Sources */,
@@ -1352,7 +1427,9 @@
 				0456818B1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.m in Sources */,
 				040A75C61D3BD56700F728A9 /* FFTableSectionHeaderView.m in Sources */,
 				0454A4091D8F8A5D008ACE7E /* FFChatSendMessageCell.m in Sources */,
+				F655F3811DFFDFD8004C0816 /* FFRuntimeObserveController.m in Sources */,
 				043FD0631D8E8E66000FB768 /* FFCustomWithPlaceHolderTextView.m in Sources */,
+				F68F96C71E023AEC00B282A2 /* UIView+FFExtension.m in Sources */,
 				04316E251D4DDF9F00AE6392 /* FFCircleScrollPhotoVC.m in Sources */,
 				040A758F1D3B976E00F728A9 /* FFViewController.m in Sources */,
 				04EA7C841D59A84100ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.m in Sources */,
@@ -1363,6 +1440,7 @@
 				043FD0511D8E7F77000FB768 /* FFCentralManagerModeController.m in Sources */,
 				040A75A31D3BA4C300F728A9 /* FFExampleModel.m in Sources */,
 				04EA7C8D1D59A9FC00ACB5DB /* FFUIWindowUsage_MultipleScrollView.m in Sources */,
+				F655F37E1DFFDFB4004C0816 /* FFRuntimeBaseController.m in Sources */,
 				040A75C91D3BDD2600F728A9 /* NSString+Extension.m in Sources */,
 				040A756C1D3B959800F728A9 /* AppDelegate.m in Sources */,
 				047BCE701D56643400A1818D /* FFDropDownMenuCustomXibCell.m in Sources */,

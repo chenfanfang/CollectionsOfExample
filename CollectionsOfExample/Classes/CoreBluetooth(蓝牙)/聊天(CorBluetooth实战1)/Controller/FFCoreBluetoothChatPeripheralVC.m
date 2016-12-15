@@ -8,10 +8,11 @@
 
 #import "FFCoreBluetoothChatPeripheralVC.h"
 
-#define serviceUUIDStr @"9DDC41F1-0843-4A57-A723-DCD3009C0445"
-#define characteristicUUIDStr @"0E3EC75A-CFEE-4F73-888F-FF53F7B11AE8"
+#define SERVICEUUID @"EBE4EB2D-55BE-4984-A2D2-8A65626BC6A6"
+#define CHARACTERISTICUUID @"FD5A5E6F-BD06-4EC0-96AF-16D12D5897FA"
 
-#define NOTIFY_MTU 20
+
+#define NOTIFY_MAX 20
 
 //view
 #import "FFCustomWithPlaceHolderTextView.h"
@@ -231,15 +232,16 @@ static NSString *const FFChatSendMessageCellID = @"FFChatSendMessageCell";
     }
     
     
+    //蓝牙处于可用状态，则给peripheral添加服务
     if (blueToothEnable == YES) {
         
-        //特征
-        CBMutableCharacteristic *characteristicM = [[CBMutableCharacteristic alloc] initWithType:[CBUUID UUIDWithString:characteristicUUIDStr] properties:CBCharacteristicPropertyNotify | CBCharacteristicPropertyWrite value:nil permissions:CBAttributePermissionsWriteable];
+        //创建特征
+        CBMutableCharacteristic *characteristicM = [[CBMutableCharacteristic alloc] initWithType:[CBUUID UUIDWithString:CHARACTERISTICUUID] properties:CBCharacteristicPropertyNotify | CBCharacteristicPropertyWrite value:nil permissions:CBAttributePermissionsWriteable];
         
         self.characteristicM = characteristicM;
         
-        //服务
-        CBMutableService *serviceM = [[CBMutableService alloc] initWithType:[CBUUID UUIDWithString:serviceUUIDStr] primary:YES];
+        //创建服务
+        CBMutableService *serviceM = [[CBMutableService alloc] initWithType:[CBUUID UUIDWithString:SERVICEUUID] primary:YES];
         
         serviceM.characteristics = @[characteristicM];
         
@@ -247,6 +249,7 @@ static NSString *const FFChatSendMessageCellID = @"FFChatSendMessageCell";
     }
 }
 
+//peripheral成功添加了服务，就会进入这个方法
 - (void)peripheralManager:(CBPeripheralManager *)peripheral didAddService:(CBService *)service error:(NSError *)error {
     
     if (error) {
@@ -256,12 +259,13 @@ static NSString *const FFChatSendMessageCellID = @"FFChatSendMessageCell";
     
     
     NSDictionary *dic = @{
-                          CBAdvertisementDataServiceUUIDsKey : @[[CBUUID UUIDWithString:serviceUUIDStr]]
+                          CBAdvertisementDataServiceUUIDsKey : @[[CBUUID UUIDWithString:SERVICEUUID]]
                           };
     [peripheral startAdvertising:dic];
 }
 
 
+//中心模式中的中心管理者  订阅了peripheral的某个
 - (void)peripheralManager:(CBPeripheralManager *)peripheral central:(CBCentral *)central didSubscribeToCharacteristic:(CBCharacteristic *)characteristic {
     
     self.sendButton.enabled = YES;
@@ -332,7 +336,7 @@ static NSString *const FFChatSendMessageCellID = @"FFChatSendMessageCell";
         NSInteger amountToSend = self.needSendData.length - self.sendDataIndex;
         
         //若发送的数量大于规定的最大发送的数据量
-        if (amountToSend > NOTIFY_MTU) amountToSend = NOTIFY_MTU;
+        if (amountToSend > NOTIFY_MAX) amountToSend = NOTIFY_MAX;
         
         NSData *chunk = [NSData dataWithBytes:self.needSendData.bytes + self.sendDataIndex length:amountToSend];
         
