@@ -24,7 +24,7 @@
 }
 
 - (void)setup {
-    UIImage *bgImage = [self imageWithColor:[UIColor colorWithRed:25 / 255.0 green:168 / 255.0 blue:243 / 255.0 alpha:1] size:CGSizeMake(1000, 100)];
+    UIImage *bgImage = [self imageWithColor:[UIColor colorWithRed:215 / 255.0 green:44 / 255.0 blue:53 / 255.0 alpha:1] size:CGSizeMake(1000, 100)];
     [self.navigationBar setBackgroundImage:bgImage forBarMetrics:UIBarMetricsDefault];
     self.navigationBar.tintColor = [UIColor whiteColor];
     self.navigationBar.translucent = NO;
