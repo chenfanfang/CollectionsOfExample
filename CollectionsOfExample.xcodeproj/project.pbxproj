@@ -78,6 +78,9 @@
 		04EA7C8F1D59AA4D00ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EA7C8E1D59AA4D00ACB5DB /* FFUIWindowUsage_ClickStatusBarScrollToTopVC.xib */; };
 		04EA7C921D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EA7C911D59BE7F00ACB5DB /* FFClickStatusBarScrollToTopManager.m */; };
 		F27F6E267F9C59C3A2FC55C8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC51EEE663470C49E2D4869 /* libPods.a */; };
+		F613A2101F06325000E04F48 /* FFCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F613A20F1F06325000E04F48 /* FFCustomViewController.m */; };
+		F613A2131F06384600E04F48 /* FFDrawStraightLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F613A2121F06384600E04F48 /* FFDrawStraightLineView.m */; };
+		F613A2161F0638FB00E04F48 /* FFCustomViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F613A2151F0638FB00E04F48 /* FFCustomViewCell.m */; };
 		F655F37E1DFFDFB4004C0816 /* FFRuntimeBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F655F37D1DFFDFB4004C0816 /* FFRuntimeBaseController.m */; };
 		F655F3811DFFDFD8004C0816 /* FFRuntimeObserveController.m in Sources */ = {isa = PBXBuildFile; fileRef = F655F3801DFFDFD8004C0816 /* FFRuntimeObserveController.m */; };
 		F655F3841DFFE05C004C0816 /* FFProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F655F3831DFFE05C004C0816 /* FFProgressView.m */; };
@@ -228,6 +231,12 @@
 		74B8ED3395C6438A60DCC988 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9DC51EEE663470C49E2D4869 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0D7168465AB91D45A6862F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F613A20E1F06325000E04F48 /* FFCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCustomViewController.h; sourceTree = "<group>"; };
+		F613A20F1F06325000E04F48 /* FFCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCustomViewController.m; sourceTree = "<group>"; };
+		F613A2111F06384600E04F48 /* FFDrawStraightLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDrawStraightLineView.h; sourceTree = "<group>"; };
+		F613A2121F06384600E04F48 /* FFDrawStraightLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDrawStraightLineView.m; sourceTree = "<group>"; };
+		F613A2141F0638FB00E04F48 /* FFCustomViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCustomViewCell.h; sourceTree = "<group>"; };
+		F613A2151F0638FB00E04F48 /* FFCustomViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCustomViewCell.m; sourceTree = "<group>"; };
 		F655F37C1DFFDFB4004C0816 /* FFRuntimeBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRuntimeBaseController.h; sourceTree = "<group>"; };
 		F655F37D1DFFDFB4004C0816 /* FFRuntimeBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRuntimeBaseController.m; sourceTree = "<group>"; };
 		F655F37F1DFFDFD8004C0816 /* FFRuntimeObserveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRuntimeObserveController.h; sourceTree = "<group>"; };
@@ -278,6 +287,7 @@
 				040A757B1D3B970800F728A9 /* Example(例子) */,
 				043FD0421D8E7C60000FB768 /* CoreBluetooth(蓝牙) */,
 				F655F3771DFFDF24004C0816 /* Runtime */,
+				F613A20C1F06316200E04F48 /* 自定义控件(绘图) */,
 				043FD0451D8E7CC2000FB768 /* --------------------Demo------------------------- */,
 			);
 			path = Classes;
@@ -1144,6 +1154,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F613A20C1F06316200E04F48 /* 自定义控件(绘图) */ = {
+			isa = PBXGroup;
+			children = (
+				F613A20E1F06325000E04F48 /* FFCustomViewController.h */,
+				F613A20F1F06325000E04F48 /* FFCustomViewController.m */,
+				F613A2141F0638FB00E04F48 /* FFCustomViewCell.h */,
+				F613A2151F0638FB00E04F48 /* FFCustomViewCell.m */,
+				F613A20D1F06316200E04F48 /* 绘制直线 */,
+			);
+			path = "自定义控件(绘图)";
+			sourceTree = "<group>";
+		};
+		F613A20D1F06316200E04F48 /* 绘制直线 */ = {
+			isa = PBXGroup;
+			children = (
+				F613A2111F06384600E04F48 /* FFDrawStraightLineView.h */,
+				F613A2121F06384600E04F48 /* FFDrawStraightLineView.m */,
+			);
+			path = "绘制直线";
+			sourceTree = "<group>";
+		};
 		F655F3771DFFDF24004C0816 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
@@ -1417,11 +1448,13 @@
 				047BCE6D1D56630800A1818D /* FFDropDownMenuCustomXibCellModel.m in Sources */,
 				047BCE761D5676C400A1818D /* FFDropDownMenuCustomCellVC.m in Sources */,
 				0489D8F21D5DCF0900E53724 /* FFDropDownCustomMenuStyle1Cell.m in Sources */,
+				F613A2101F06325000E04F48 /* FFCustomViewController.m in Sources */,
 				040A75CC1D3BDE2E00F728A9 /* FFDifferentWidthTagCell.m in Sources */,
 				04AEEDF01D5DCA810088E712 /* FFDropDownCustomMenuStyle1VC.m in Sources */,
 				F68F96C31E02363C00B282A2 /* FFCustomView.m in Sources */,
 				0486FF751D4D000800273597 /* FFSnowflakesFallingView.m in Sources */,
 				04316E281D4DE49C00AE6392 /* FFCircleScrollPhotoView.m in Sources */,
+				F613A2161F0638FB00E04F48 /* FFCustomViewCell.m in Sources */,
 				040A75C31D3BD35300F728A9 /* FFDifferentWidthTagModel.m in Sources */,
 				0486FF681D4CC55B00273597 /* FFVoicePlayTextController.m in Sources */,
 				0456818B1D570CEB00A0DBB2 /* FFDropDownMenuNextPageVC.m in Sources */,
@@ -1444,6 +1477,7 @@
 				040A75C91D3BDD2600F728A9 /* NSString+Extension.m in Sources */,
 				040A756C1D3B959800F728A9 /* AppDelegate.m in Sources */,
 				047BCE701D56643400A1818D /* FFDropDownMenuCustomXibCell.m in Sources */,
+				F613A2131F06384600E04F48 /* FFDrawStraightLineView.m in Sources */,
 				040A759A1D3BA26100F728A9 /* FFNavigationController.m in Sources */,
 				040A756D1D3B959800F728A9 /* main.m in Sources */,
 				04316E311D4DF02900AE6392 /* FFCircleScrollPhotoCell.m in Sources */,

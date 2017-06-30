@@ -49,11 +49,17 @@
 //=================
 #import "FFRuntimeObserveController.h"
 
+//=================
+//   自定义控件(绘图)
+//=================
+#import "FFCustomViewController.h"
+
 
 //model
 #import "FFExampleModel.h"
 //cell
 #import "FFExampleCell.h"
+
 
 
 @interface FFMainViewController ()
@@ -198,6 +204,16 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
                                   runtimeModel1
                                   ];
         
+        //==================
+        //    自定义控件(绘图)
+        //==================
+        
+        FFExampleModel *customViewModel1 = [FFExampleModel exampleModelWithExampleName:@"自定义控件(绘图)" exampleImageName:@"" correspondClassName:@"FFCustomViewController"];
+        
+        NSArray *customViewArray = @[
+                                  customViewModel1
+                                  ];
+        
         
         //=================
         //    数据源数组
@@ -207,7 +223,8 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
                            avFoundationArr,
                            menuArr,
                            coreBluetoothArray,
-                           runtimeArray
+                           runtimeArray,
+                           customViewArray
                            ];
         
     }
@@ -384,6 +401,20 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
                 break;
         }
     }
+    
+    //自定义控件(绘图)
+    else if (indexPath.section == 5) {
+        switch (indexPath.row) {
+            case 0: {
+                FFCustomViewController *vc = [FFCustomViewController new];
+                [self.navigationController pushViewController:vc animated:YES];
+                break;
+            }
+                
+            default:
+                break;
+        }
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -407,6 +438,13 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
     
     else if (section == 3) {
         headerView.title = @"CoreBluetooth";
+    }
+    else if (section == 4) {
+        headerView.title = @"Runtime";
+    }
+    
+    else if (section == 5) {
+        headerView.title = @"自定义控件(绘图)";
     }
     
     return headerView;
