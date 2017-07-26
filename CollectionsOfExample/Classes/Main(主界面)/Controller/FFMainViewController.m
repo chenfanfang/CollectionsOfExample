@@ -67,6 +67,9 @@
 /** 数据源数组 */
 @property (nonatomic, strong) NSArray<NSArray *> *dataSourceArr;
 
+/** section Title数组 */
+@property (nonatomic, strong) NSMutableArray<NSString *> *sectionTitleArrM;
+
 @end
 
 @implementation FFMainViewController
@@ -105,14 +108,25 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
 //=================================================================
 #pragma mark - 懒加载
 
+- (NSMutableArray<NSString *> *)sectionTitleArrM {
+    if (_sectionTitleArrM == nil) {
+        _sectionTitleArrM = [NSMutableArray array];
+    }
+    return _sectionTitleArrM;
+}
 
 - (NSArray *)dataSourceArr {
     
     if (_dataSourceArr == nil) {
         
+        
+       
+        
+        
         //=================
         //      小例子
         //=================
+        [self.sectionTitleArrM addObject:@"例子"];
         
         //example_001(不同宽度的标签)
         FFExampleModel *model1 = [FFExampleModel exampleModelWithExampleName:@"不同宽度的标签" exampleImageName:@"" correspondClassName:@"FFDifferentWidthTagVC"];
@@ -128,7 +142,7 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
         FFExampleModel *model4 = [FFExampleModel exampleModelWithExampleName:@"无限滚动轮播图" exampleImageName:@"" correspondClassName:@"FFCircleScrollPhotoVC"];
         
         
-        //example_006(无限滚动轮播图)
+        //example_006(UIWindow巧用--点击状态栏滚动到顶部)
         FFExampleModel *model6 = [FFExampleModel exampleModelWithExampleName:@"UIWindow巧用--点击状态栏滚动到顶部" exampleImageName:@"" correspondClassName:@"FFUIWindowUsage_ClickStatusBarScrollToTopVC"];
         
         
@@ -144,6 +158,8 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
         //=================
         //   AVFoundation
         //=================
+        [self.sectionTitleArrM addObject:@"AV Foundation"];
+        
         
         FFExampleModel *afModel1 = [FFExampleModel exampleModelWithExampleName:@"语音播放文字内容" exampleImageName:@"" correspondClassName:@"FFVoicePlayTextController"];
         
@@ -156,6 +172,8 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
         //==================
         //   FFDropDownMenu
         //==================
+        [self.sectionTitleArrM addObject:@"FFDropDownMenu下拉菜单的使用"];
+        
         
         FFExampleModel *menuModel1 = [FFExampleModel exampleModelWithExampleName:@"教程----下拉菜单的基本使用" exampleImageName:@"" correspondClassName:@"FFDropDownMenuBaseUsageVC"];
         
@@ -177,6 +195,7 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
         //==================
         //   CoreBluetooth
         //==================
+        [self.sectionTitleArrM addObject:@"CoreBluetooth"];
         
         FFExampleModel *coreBluetoothModel1 = [FFExampleModel exampleModelWithExampleName:@"中心模式教程(CBCentralManager)" exampleImageName:@"" correspondClassName:@"FFPeripheralManagerModeController"];
         
@@ -198,6 +217,9 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
         //    Runtime
         //==================
         
+        
+        [self.sectionTitleArrM addObject:@"Runtime"];
+        
         FFExampleModel *runtimeModel1 = [FFExampleModel exampleModelWithExampleName:@"runtime----利用runtime监听任何方法的调用" exampleImageName:@"" correspondClassName:@"FFRuntimeObserveController"];
         
         NSArray *runtimeArray = @[
@@ -207,6 +229,7 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
         //==================
         //    自定义控件(绘图)
         //==================
+        [self.sectionTitleArrM addObject:@"自定义控件(绘图)"];
         
         FFExampleModel *customViewModel1 = [FFExampleModel exampleModelWithExampleName:@"自定义控件(绘图)" exampleImageName:@"" correspondClassName:@"FFCustomViewController"];
         
@@ -260,161 +283,10 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    //=================
-    //        例子
-    //=================
-    if (indexPath.section == 0) {
-        switch (indexPath.row) {
-            case 0: //不同宽度的标签
-            {
-                FFDifferentWidthTagVC *vc = [FFDifferentWidthTagVC new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-            case 1: //雪花飘落效果
-            {
-                FFSnowflakesFallingVC *vc = [FFSnowflakesFallingVC new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-            case 2: //正则表达式demo
-            {
-                FFRegulationExpressDemoVC *vc = [FFRegulationExpressDemoVC new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-            case 3: //无限滚动轮播图
-            {
-                FFCircleScrollPhotoVC *vc = [FFCircleScrollPhotoVC new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-                
-            case 4: //点击状态栏、scrollView自动滚动到顶部
-            {
-                FFUIWindowUsage_ClickStatusBarScrollToTopVC *vc = [FFUIWindowUsage_ClickStatusBarScrollToTopVC new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-                
-            default:
-                break;
-        }
-        
-        
-    }
-    
-    
-    //=================
-    //   AVFoundation
-    //=================
-    else if (indexPath.section == 1) {
-        switch (indexPath.row) {
-            case 0: //语音播放文字内容
-            {
-                FFVoicePlayTextController *vc = [FFVoicePlayTextController viewControllerFromNib];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-            default:
-                break;
-        }
-        
-    }
-    
-    //==============================
-    //   FFDropDownMenu下拉菜单的使用
-    //==============================
-    else if (indexPath.section == 2) {
-        switch (indexPath.row) {
-            case 0: //FFDropDownMenu基本用法
-            {
-                FFDropDownMenuBaseUsageVC *vc = [FFDropDownMenuBaseUsageVC new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-                
-            case 1: //FFDropDownMenu自定义菜单cell(xib)
-            {
-                FFDropDownMenuCustomXibCellVC *vc = [FFDropDownMenuCustomXibCellVC new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-                
-            case 2: //FFDropDownMenu自定义菜单cell(非xib)
-            {
-                FFDropDownMenuCustomCellVC *vc = [FFDropDownMenuCustomCellVC new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-            case 3: //实战----自定义菜单样式1
-            {
-                FFDropDownCustomMenuStyle1VC *vc = [FFDropDownCustomMenuStyle1VC new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-            default:
-                break;
-        }
-    }
-    
-    //=================
-    //  CoreBluetooth
-    //=================
-    else if (indexPath.section == 3) {
-        switch (indexPath.row) {
-            case 0: //中心模式
-            {
-                FFCentralManagerModeController *vc = [FFCentralManagerModeController new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-            case 1: //外设模式
-            {
-                FFPeripheralManagerModeController *vc = [FFPeripheralManagerModeController new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-            case 2: //聊天(CoreBluetooth实战1)
-            {
-                FFCoreBluetoothChatController *vc = [FFCoreBluetoothChatController new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-                
-            default:
-                break;
-        }
-    }
-    
-    //runtime
-    else if (indexPath.section == 4) {
-        switch (indexPath.row) {
-            case 0: {//利用runtime监听任何方法的调用
-                
-                FFRuntimeObserveController *vc = [FFRuntimeObserveController new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-                
-            default:
-                break;
-        }
-    }
-    
-    //自定义控件(绘图)
-    else if (indexPath.section == 5) {
-        switch (indexPath.row) {
-            case 0: {
-                FFCustomViewController *vc = [FFCustomViewController new];
-                [self.navigationController pushViewController:vc animated:YES];
-                break;
-            }
-                
-            default:
-                break;
-        }
-    }
+    FFExampleModel *model = self.dataSourceArr[indexPath.section][indexPath.row];
+    Class vcClass = NSClassFromString(model.correspondClassName);
+    UIViewController *vc = [[vcClass alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -424,28 +296,7 @@ static NSString *const FFExampleCellID = @"FFExampleCell";
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     
     FFTableSectionHeaderView *headerView = [FFTableSectionHeaderView new];
-    if (section == 0) {
-        headerView.title = @"例子";
-    }
-    
-    else if (section == 1) {
-        headerView.title = @"AV Foundation";
-    }
-    
-    else if (section == 2) {
-        headerView.title = @"FFDropDownMenu下拉菜单的使用";
-    }
-    
-    else if (section == 3) {
-        headerView.title = @"CoreBluetooth";
-    }
-    else if (section == 4) {
-        headerView.title = @"Runtime";
-    }
-    
-    else if (section == 5) {
-        headerView.title = @"自定义控件(绘图)";
-    }
+    headerView.title = self.sectionTitleArrM[section];
     
     return headerView;
 }
