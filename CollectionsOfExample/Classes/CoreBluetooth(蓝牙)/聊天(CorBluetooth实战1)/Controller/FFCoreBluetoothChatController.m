@@ -7,10 +7,11 @@
 //
 
 #import "FFCoreBluetoothChatController.h"
+#import "NSUserDefaults+DemoSettings.h"
 
 //contoller
-#import "FFCoreBluetoothChatCentralVC.h"
-//#import "FFCoreBluetoothChatCentralVC.h"
+#import "CBCentralManagerController.h"
+#import "CBPeripheralManagerController.h"
 
 @interface FFCoreBluetoothChatController ()
 
@@ -26,14 +27,27 @@
 
 /** 中心模式按钮的点击 */
 - (IBAction)centralModeBtnClick {
-    FFCoreBluetoothChatCentralVC *vc = [FFCoreBluetoothChatCentralVC new];
+    CBCentralManagerController *vc = [CBCentralManagerController new];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
 
 /** 外设模式按钮的点击 */
 - (IBAction)peripheralModeBtnClick {
+    CBPeripheralManagerController *vc = [CBPeripheralManagerController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
+
+//=================================================================
+//                           other
+//=================================================================
+#pragma mark - other
+
++ (void)load {
+    // Load our default settings
+    [NSUserDefaults saveIncomingAvatarSetting:YES];
+    [NSUserDefaults saveOutgoingAvatarSetting:YES];
+}
 
 @end

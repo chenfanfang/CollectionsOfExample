@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FFCoreBluetoothChatController">
@@ -12,12 +16,12 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHR-lw-jm7">
-                    <rect key="frame" x="20" y="30" width="280" height="50"/>
-                    <color key="backgroundColor" red="0.95686280727386475" green="1" blue="0.039215687662363052" alpha="1" colorSpace="deviceRGB"/>
+                    <rect key="frame" x="20" y="30" width="335" height="50"/>
+                    <color key="backgroundColor" red="0.94849729537963867" green="1" blue="0.058869406580924988" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="wm8-qG-UWI"/>
                     </constraints>
@@ -27,8 +31,8 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKb-8X-t8z">
-                    <rect key="frame" x="20" y="110" width="280" height="50"/>
-                    <color key="backgroundColor" red="0.95686280727386475" green="1" blue="0.039215687662363052" alpha="1" colorSpace="deviceRGB"/>
+                    <rect key="frame" x="20" y="110" width="335" height="50"/>
+                    <color key="backgroundColor" red="0.94849729537963867" green="1" blue="0.058869406580924988" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="wqW-W1-34z"/>
                     </constraints>
@@ -38,7 +42,7 @@
                     </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="yHR-lw-jm7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Sb6-wb-QFj"/>
                 <constraint firstAttribute="trailing" secondItem="mKb-8X-t8z" secondAttribute="trailing" constant="20" id="Uhh-m7-Y8T"/>
@@ -48,8 +52,7 @@
                 <constraint firstItem="yHR-lw-jm7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="pz3-ww-n6e"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <point key="canvasLocation" x="258" y="413"/>
+            <point key="canvasLocation" x="-166" y="202"/>
         </view>
     </objects>
 </document>

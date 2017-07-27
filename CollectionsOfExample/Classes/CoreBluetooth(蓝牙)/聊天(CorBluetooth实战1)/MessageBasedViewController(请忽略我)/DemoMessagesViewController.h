@@ -1,0 +1,55 @@
+//
+//  Created by Jesse Squires
+//  http://www.jessesquires.com
+//
+//
+//  Documentation
+//  http://cocoadocs.org/docsets/JSQMessagesViewController
+//
+//
+//  GitHub
+//  https://github.com/jessesquires/JSQMessagesViewController
+//
+//
+//  License
+//  Copyright (c) 2014 Jesse Squires
+//  Released under an MIT license: http://opensource.org/licenses/MIT
+//
+
+
+// Import all the things
+#import "JSQMessages.h"
+
+#import "DemoModelData.h"
+#import "NSUserDefaults+DemoSettings.h"
+
+
+@class DemoMessagesViewController;
+
+@protocol JSQDemoViewControllerDelegate <NSObject>
+
+- (void)didDismissJSQDemoViewController:(DemoMessagesViewController *)vc;
+
+
+
+@end
+
+
+
+
+@interface DemoMessagesViewController : JSQMessagesViewController <UIActionSheetDelegate, JSQMessagesComposerTextViewPasteDelegate>
+
+@property (weak, nonatomic) id<JSQDemoViewControllerDelegate> delegateModal;
+
+@property (strong, nonatomic) DemoModelData *demoData;
+
+- (void)receiveMessagePressed:(UIBarButtonItem *)sender;
+
+- (void)closePressed:(UIBarButtonItem *)sender;
+
+- (void)receiveMessage:(NSString *)message senderId:(NSString *)senderId senderName:(NSString *)senderName;
+
+/** 菊花 */
+@property (nonatomic, weak) UIActivityIndicatorView *activityIndicatorView;
+
+@end
