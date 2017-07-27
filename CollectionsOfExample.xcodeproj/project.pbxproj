@@ -1996,7 +1996,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/CollectionsOfExample/Resources/Plist文件/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dandan.licai;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qztc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4181f5f8-6bbb-4f80-8db3-f46bd3c4be87";
 				PROVISIONING_PROFILE_SPECIFIER = Develop;
@@ -2014,7 +2014,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/CollectionsOfExample/Resources/Plist文件/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dandan.licai;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qztc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
