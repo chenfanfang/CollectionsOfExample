@@ -78,7 +78,7 @@
 - (void)peripheralManagerDidUpdateState:(CBPeripheralManager *)peripheral {
     
     if (peripheral.state != CBPeripheralManagerStatePoweredOn) {
-        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"请您打开蓝牙" delegate:nil cancelButtonTitle:@"" otherButtonTitles:nil, nil];
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"请您打开蓝牙" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
         [alertView show];
         return;
     }

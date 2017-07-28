@@ -2,18 +2,18 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "chat_right.png",
-      "scale" : "1x"
+      "scale" : "1x",
+      "filename" : "demo_avatar_cook.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "chat_right@2x.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "demo_avatar_cook@2x.png"
     },
     {
       "idiom" : "universal",
-      "filename" : "chat_right@3x.png",
-      "scale" : "3x"
+      "scale" : "3x",
+      "filename" : "demo_avatar_cook@3x.png"
     }
   ],
   "info" : {
